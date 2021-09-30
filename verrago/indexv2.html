@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Verrago</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- [if lt IE 9]>
+                <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body oncontextmenu="return true;">
+
+    <!--       start navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top ">
+        <div class="container-fluid">
+            <img src="img/Verrago _logo_white.png" href="./index.html"></img>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">A poropos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./product.html">Produits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="">FR</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href=""><span class="material-icons-outlined">EN</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--        end navbar-->
+
+    <!--        start section video-->
+    <!--Start slider    -->
+    <div class="slider" id="home">
+        <div id="main-slider" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <video muted loop autoplay>
+                    <source src="img/videos/A propos.mp4" type="video/mp4" id="vd">
+                </video>
+                <div class="overlay"></div>
+                <div class="carousel-item carousel-one active">
+                    <div class="caption">
+                        <h1 class="animate__animated animate__fadeInDownBig 2s">Mission</h1>
+                        <p class="animate__animated animate__fadeInUp 1s">Offrir à nos clients des solutions à fortes
+                            valeurs ajoutées.</p>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-two">
+                    <div class="caption">
+                        <h1 class="animate_animated animate_zoomIn">Vision</h1>
+                        <p>Devenir Leader de notre industrie dans le marché africain.</p>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-three">
+                    <div class="caption">
+                        <h1>Valeurs</h1>
+                        <p>Engagement, Innovation, Efficacité</p>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </div>
+
+    <!--        ENd slider-->
+
+    <!--        END section video-->
+    <!--         section-->
+    <section class="about" id="about"></section>
+    <div class="our-business">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>BIENVENUE À VERRAGO </h3>
+                    <button type="button" class="btn btn-outline-dark"><a href="./product.html"
+                            style="color: black; text-decoration: none;">Nos Produits</a></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section id="contact" class="add-padding border-top-color2">
+
+        <div class="container text-center">
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-5 text-right scrollimation fade-up d1">
+
+                    <h1 class="big-text">Contactez Nous</h1>
+
+                    <p><span>Tel :</span> +222 45297874</p>
+                    <p><span>Email :</span> contact@verrago.net</p>
+                    <p><span>Adresse :</span> ILOT O 18 BP 4350, Nouakchott, Mauritanie</p>
+
+                    <p>Pour Plus d'information, <a href="./about.html" target="_blank">voir A poropos de nous .</a></p>
+
+                </div>
+
+                <!--=== Contact Form ===-->
+
+                <form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="contact.php"
+                    method="post" novalidate>
+
+                    <div class="form-group">
+                        <label class="control-label" for="contact-name">nom</label>
+                        <div class="controls">
+                            <input id="contact-name" name="contactName" placeholder="Your name"
+                                class="form-control requiredField" data-new-placeholder="Your name" type="text"
+                                data-error-empty="Please enter your name">
+                            <i class="fa fa-user"></i>
+                        </div>
+                    </div><!-- End name input -->
+
+                    <div class="form-group">
+                        <label class="control-label" for="contact-mail">Email</label>
+                        <div class=" controls">
+                            <input id="contact-mail" name="email" placeholder="Your email"
+                                class="form-control requiredField" data-new-placeholder="Your email" type="email"
+                                data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                    </div><!-- End email input -->
+
+                    <div class="form-group">
+                        <label class="control-label" for="contact-message">Message</label>
+                        <div class="controls">
+                            <textarea id="contact-message" name="comments" placeholder="Your message"
+                                class="form-control requiredField" data-new-placeholder="Your message" rows="6"
+                                data-error-empty="Please enter your message"></textarea>
+                            <i class="fa fa-comment"></i>
+                        </div>
+                    </div><!-- End textarea -->
+
+                    <p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!"
+                            data-sending-message="Sending..." data-ok-message="Message Sent"><i
+                                class="fa fa-paper-plane"></i>Envoyer Message</button></p>
+                    <input type="hidden" name="submitted" id="submitted" value="true" />
+
+                </form><!-- End contact-form -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==============================================
+    FOOTER
+    =============================================== -->
+
+    <footer id="main-footer" class="add-padding border-top-color2">
+
+        <div class="container">
+
+            <ul class="social-links text-center">
+                <li><a href="#" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-whatsapp fa-fw"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+            </ul>
+
+        </div>
+        <div class="copyright">
+            <p>&copy; Copyright <strong>Verrago</strong>. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/block.js"></script>
+</body>
+
+</html>
