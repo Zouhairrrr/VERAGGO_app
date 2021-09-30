@@ -133,15 +133,24 @@
     background-size: cover;
     background-position: center !important ;
 }
-/* .slider .carousel-one{
+.slider .carousel-one{
     background: url("../img/slider/pexels-life-of-pix-2391.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover ;
 }
 .slider .carousel-two{
     background-image: url("../img/slider/image2.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover ;
 }
 .slider .carousel-three{
     background-image: url("../img/slider/image3.jpg");
-} */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
   
 .slider .carousel-inner .overlay {
     position: absolute;
