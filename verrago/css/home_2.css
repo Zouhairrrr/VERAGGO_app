@@ -65,10 +65,7 @@
     background: #D82730;
     color: #FFF;;
 }
-/* .scroll-top .navbar-nav .active .nav-link{
-     color:#D82730;
-     height: 60px;
-} */
+
 
 
 @media only screen and (max-width: 991px) {
@@ -138,7 +135,7 @@
 .slider .carousel-inner .overlay {
     position: absolute;
     width: 100%;
-    height: 98.9%;
+    height: 99.8%;
     background-color: rgba(0, 0, 0, 0.37);
     top: 0px;
     bottom: 0px;
