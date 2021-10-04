@@ -1,0 +1,41 @@
+/** @format */
+
+footer {
+  background-color: #1a1a1a;
+}
+.footer {
+  width: 90%;
+  min-height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  background: transparent;
+}
+
+.right_,
+.form,
+.left {
+  flex: 100% 1;
+}
+.right_ {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.right_ h1 {
+  color: #fff;
+  font-size: 40px;
+}
+.right_ p {
+  color: #ffffff9c;
+}
+.span_ {
+  color: #fff;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
