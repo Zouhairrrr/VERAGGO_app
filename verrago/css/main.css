@@ -70,6 +70,7 @@
      height: 60px;
 } */
 
+
 @media only screen and (max-width: 991px) {
     .navbar{
     line-height: 20px;   
@@ -133,20 +134,29 @@
     background-position: center !important ;
 }
 .slider .carousel-one{
-    background-image: url("../img/slider/pexels-life-of-pix-2391.jpg");
+    background: url("../img/slider/pexels-life-of-pix-2391.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover ;
 }
 .slider .carousel-two{
     background-image: url("../img/slider/image2.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover ;
 }
 .slider .carousel-three{
     background-image: url("../img/slider/image3.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover ;
 }
   
 .slider .carousel-inner .overlay {
     position: absolute;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    height: 98.9%;
+    background-color: rgba(0, 0, 0, 0.37);
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -159,6 +169,11 @@
     height: 8px;
     cursor: pointer;
 }
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
 
 .slider .carousel-inner .caption{
     position: absolute;
@@ -166,11 +181,11 @@ z-index: 3;
 top: 38%;
 left: 50%;
 transform: translate(-90%,-15%);
-color: #fff;
+color: #000;
 font-size: 45px;
 width: 51%;
 box-shadow: 0 0 25px rgba(49, 48, 48, 0.925);
-background-color: #d827309d;
+background-color: #fff6f698;
 padding: 20px;
 border-radius: 29px;
     
