@@ -58,6 +58,7 @@ body {
   letter-spacing: -0.07em;
   margin: 0;
   color: var(--dark);
+  letter-spacing: 1.2px;
   font-weight: 800;
 }
 .main_para {
