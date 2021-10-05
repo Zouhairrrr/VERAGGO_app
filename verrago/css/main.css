@@ -1,31 +1,32 @@
-/**
- * /* Start nav bar
- *
- * @format
- */
+/** @format */
 
 .navbar {
   height: 65px;
   line-height: 65px;
 }
+
 .navbar-dark {
   background: rgba(0, 0, 0, 0.664);
   text-transform: uppercase;
 }
+
 .scroll-top {
   transition: 0.5s;
-  background: rgb(19, 18, 18);
+  background: #131212;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
+
 .navbar-brand {
   color: #fff;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: none;
 }
+
 .container-fluid img {
   width: 10%;
 }
+
 .navbar-brand span {
   color: #d82730;
 }
@@ -34,6 +35,7 @@
   color: #d82730;
   height: 60px;
 }
+
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
   font-size: 19px;
@@ -45,43 +47,48 @@
   color: #d82730;
   height: 60px;
 }
+
 .navbar-dark .navbar-nav .nav-link:focus {
   height: 60px;
 }
+
 .scroll-top .navbar-brand:hover {
   color: #333;
 }
+
 .scroll-top .navbar-brand {
   color: #333;
 }
+
 .scroll-top .navbar-nav .nav-link {
   color: #fff;
   font-size: 19px;
   transition: 0.5s;
   margin-left: 5px;
 }
+
 .scroll-top .navbar-nav .nav-link:hover {
   color: #d82730;
 }
+
 .scroll-top .navbar-nav .nav-link:focus {
   color: #d82730;
 }
+
 .scroll-top .navbar-toggler {
   background: #d82730;
   color: #fff;
 }
-/* .scroll-top .navbar-nav .active .nav-link{
-     color:#D82730;
-     height: 60px;
-} */
 
 @media only screen and (max-width: 991px) {
   .navbar {
     line-height: 20px;
   }
+
   .navbar-dark .navbar-nav {
     margin-top: 15px;
   }
+
   .navbar-dark .navbar-nav .nav-link {
     font-size: 20px;
     color: #333;
@@ -90,6 +97,7 @@
     padding: 0 0 0 20px;
     line-height: 40px;
   }
+
   .scroll-top .navbar-nav .nav-link {
     font-size: 20px;
     color: #333;
@@ -98,29 +106,31 @@
     padding: 0 0 0 20px;
     line-height: 40px;
   }
+
   .navbar-dark .navbar-nav .nav-link:hover {
     color: #d82730;
     height: 40px;
   }
+
   .navbar-dark .navbar-nav .nav-link:focus {
     height: 40px;
   }
+
   .navbar-dark .navbar-nav .active .nav-link {
     color: #d82730;
     height: 40px;
   }
+
   .scroll-top .navbar-nav .active .nav-link {
     color: #d82730;
     height: 40px;
   }
+
   .navbar-dark .navbar-nav .active .nav-link {
     color: #d82730;
     height: 40px;
   }
 }
-/* End nav bar*/
-
-/*Start slider*/
 
 .slider {
   position: relative;
@@ -133,22 +143,25 @@
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-position: center !important ;
+  background-position: center !important;
 }
+
 .slider .carousel-one {
-  background: url("../img/slider/pexels-life-of-pix-2391.jpg");
+  background: url(../img/slider/pexels-life-of-pix-2391.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .slider .carousel-two {
-  background-image: url("../img/slider/image2.jpg");
+  background-image: url(../img/slider/image2.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .slider .carousel-three {
-  background-image: url("../img/slider/image3.jpg");
+  background-image: url(../img/slider/image3.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,10 +171,10 @@
   position: absolute;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.37);
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 2;
 }
 
@@ -169,6 +182,7 @@
   height: 8px;
   cursor: pointer;
 }
+
 video {
   width: 100%;
   height: 100vh;
@@ -189,13 +203,16 @@ video {
   padding: 20px;
   border-radius: 29px;
 }
+
 .slider .carousel-inner .caption h1 {
   font-size: 75px;
 }
+
 .slider .carousel-inner .caption p {
   font-size: 30px;
   font-weight: 600;
 }
+
 .slider .carousel-inner .caption .serv {
   background-color: #262626;
   border: 1px solid #524c4d;
@@ -205,6 +222,7 @@ video {
   color: #fff;
   text-decoration: none;
 }
+
 .slider .carousel-inner .caption .learn {
   border-radius: 25px;
   padding: 10px 20px;
@@ -214,32 +232,29 @@ video {
   color: #fff;
   text-decoration: none;
 }
+
 .slider .carousel-inner .caption .learn:hover {
   background-color: #d82730;
   border: 1px solid #d82730;
 }
+
 @media (max-width: 800px) {
   .slider .carousel-inner .caption .serv {
     font-size: 16px;
   }
+
   .slider .carousel-inner .caption .learn {
     font-size: 16px;
   }
+
   .slider .carousel-inner .caption h1 {
     font-size: 35px;
   }
+
   .slider .carousel-inner .caption p {
     font-size: 30px;
   }
 }
-
-/*End slider*/
-
-/* section about*/
-
-/* end section about */
-
-/* start prog*/
 
 .prog,
 .our,
@@ -257,15 +272,13 @@ video {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .prog p {
   color: #fff;
   font-size: 30px;
   font-weight: 400;
 }
 
-/*end prog*/
-
-/* start faq*/
 .faq {
   padding: 40px;
 }
@@ -279,11 +292,13 @@ video {
 .faq .tab-content span {
   display: block;
   font-size: 27px;
-  margin: 6px 0 6px 0;
+  margin: 6px 0;
 }
+
 .faq .nav p {
   font-size: 15px;
 }
+
 .faq .nav a {
   font-size: 19px;
   color: #d82730;
@@ -300,29 +315,33 @@ video {
   border: 1px solid #dee2e6;
   height: 37px;
 }
+
 .faq .accordion {
   margin-bottom: 15px;
 }
+
 .faq .card button {
   width: 100%;
   line-height: 30px;
   text-align: left;
   font-size: 16px;
   font-weight: 600;
-  padding: 0px 0px 0px 40px;
+  padding: 0 0 0 40px;
   transition: 0.3s;
 }
+
 .faq .card button:focus {
   color: #d82730;
 }
 
 .faq .card button span {
   font-size: 23px;
-  font-weight: bold;
+  font-weight: 700;
   transition: 0.3s;
   position: absolute;
   margin-left: -30px;
 }
+
 .faq .card button:focus span {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -332,32 +351,35 @@ video {
   font-size: 15px;
 }
 
-/* end faq*/
-
-/*       start our ebsiness */
 .our .overbg {
-  padding: 90px 10px 90px 10px;
+  padding: 90px 10px;
 }
+
 .our .subscribe {
   color: #fff;
 }
+
 .our .subscribe h1 {
   font-weight: 500;
 }
+
 .our .subscribe p {
   font-size: 18px;
   font-style: italic;
 }
+
 .our .input-group {
   width: 45%;
   margin: 30px auto;
 }
+
 .our .input-group input {
   background-color: #3330;
   border-radius: 20px;
   height: 45px;
   color: #fff;
 }
+
 .our .input-group button {
   border-radius: 20px;
   width: 145px;
@@ -367,50 +389,49 @@ video {
   border: 1px solid #fff;
   border-left: none;
   transition: 0.3s;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .our .input-group button:hover {
   color: #d82730;
   background-color: #fff;
 }
+
 .our .input-group input:focus {
   box-shadow: none;
   border-color: #fff;
 }
 
-/*       end our ebsiness */
-
-/*     start our business */
 .our-business {
   background-color: #d82730;
   padding: 30px;
   color: #fff;
 }
+
 .our-business h3 {
   display: inline-block;
   margin-right: 40px;
 }
+
 .our-business button {
   background-color: #fff;
   color: #d82730;
   border: 2px solid #d82730;
   border-radius: 20px;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 30px;
   margin-left: 15px;
   transition: 0.5s;
-  font-weight: bold;
+  font-weight: 700;
 }
+
 .our-business button:hover {
   background-color: #d82730;
   color: #fff;
   border: 2px solid #fff;
 }
 
-/*     End our business */
-/*   start contact-us */
 .contact-us {
-  padding: 30px 0 50px 0;
+  padding: 30px 0 50px;
 }
 
 .contact-us .items p {
@@ -418,6 +439,7 @@ video {
   font-size: 18px;
   color: #656565;
 }
+
 .contact-us .items i {
   font-size: 35px;
   border: 1px solid #656565;
@@ -435,23 +457,24 @@ video {
   color: #fff;
   border-color: #d82730;
 }
+
 .contact-us form button {
   font-weight: 700;
   border-radius: 20px;
   margin-top: 15px;
-  padding: 10px 25px 10px 25px;
+  padding: 10px 25px;
   transition: 0.5s;
 }
+
 .contact-us form button:hover {
   background-color: #d82730;
   border-color: #d82730;
   color: #fff;
 }
+
 .contact-us .row {
   margin-top: 20px;
 }
-/*   End contact-us */
-/*   start footer */
 
 .section-title {
   margin-top: -20px;
@@ -459,18 +482,10 @@ video {
   text-align: center;
 }
 
-/*-----------------------
------ Layout Styles -----
--------------------------*/
-
 .add-padding {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-/*-----------------------
------ Color Styles ------
--------------------------*/
 
 .bg-color1 {
   color: #fff;
@@ -522,10 +537,6 @@ video {
   border: 3px solid #334959;
 }
 
-/*------------------
------ Buttons ------
---------------------*/
-
 .btn-color1,
 .btn-color2 {
   padding: 10px 30px;
@@ -560,17 +571,6 @@ video {
   margin-right: 15px;
 }
 
-/*----------------------
------ Contact Styles ----
-------------------------*/
-
-/* #contact{
-    background-image:url('../images/bg-contact.png');
-    background-repeat:no-repeat;
-    background-position:0 100%;
-    background-color: #fff;
-} */
-
 #contact-form .form-group label {
   display: none;
   font-size: 18px;
@@ -598,8 +598,8 @@ video {
   outline: none;
   box-shadow: none;
   height: 56px;
-  color: white;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 700;
   font-size: 16px;
   padding-left: 64px;
   -webkit-transition: border-color 0.3s ease-out;
@@ -637,8 +637,8 @@ video {
 #contact-form textarea.form-control {
   height: auto;
   max-width: 100%;
-  color: white;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 700;
   min-width: 100%;
   font-size: 16px;
   line-height: 20px;
@@ -672,10 +672,6 @@ video {
   margin-right: 5px;
 }
 
-/*----------------------
------ Footer Styles ----
-------------------------*/
-
 #main-footer {
   background: #000;
 }
@@ -685,9 +681,10 @@ video {
   font-size: 25px;
   text-decoration: none;
 }
+
 .add-padding {
   padding-top: 50px;
-  padding-bottom: 0px !important;
+  padding-bottom: 0 !important;
 }
 
 #main-footer p {
@@ -729,21 +726,26 @@ video {
   color: #fff;
   background: #d82730;
 }
+
 .footer {
-  background-color: #000000;
-  padding: 30px;
+  background-color: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer .ebusiness img {
   width: 30%;
   margin-bottom: 20px;
 }
+
 .footer .ebusiness span {
   color: #fff;
 }
+
 .footer .ebusiness p {
   color: rgba(161, 161, 161, 0.801) !important;
 }
+
 .footer .ebusiness ul li {
   list-style: none;
   display: inline-block;
@@ -757,37 +759,43 @@ video {
   cursor: pointer;
   transition: 0.5s;
 }
+
 .footer .ebusiness ul li:hover {
   background-color: #d82730;
   color: #fff;
-  border-color: #000000;
+  border-color: #000;
 }
+
 .footer .ebusiness ul li a {
   color: #fff;
   text-decoration: none;
   background-color: transparent;
 }
-.footer .ebusiness ul li:hover {
-}
+
 .footer .info h4,
 .footer .insta h4 {
   color: #fff;
   font-size: 20px;
 }
+
 .footer .info p {
   color: rgba(161, 161, 161, 0.801);
 }
+
 .footer .info .personal span {
   color: #fff;
   font-weight: 600;
 }
+
 .footer .insta .images {
   margin-top: 15px;
 }
+
 .footer .insta .images img {
   width: 31%;
   border: 1px solid #d2d2d2;
 }
+
 .copyright {
   background-color: #1a1a1a;
   text-align: center;
@@ -796,15 +804,15 @@ video {
   color: #5d5d5d;
   border-top: 3px solid;
 }
+
 .copyright p {
   margin: 0;
 }
+
 .copyright span {
   color: #d82730;
 }
-/*   End footer
 
-/************ start button scroll up *********/
 .topbtn {
   position: fixed;
   bottom: 30px;
@@ -820,10 +828,9 @@ video {
   text-align: center;
   cursor: pointer;
   display: none;
-  box-shadow: inset 0 0px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .topbtn i {
   line-height: 45px;
 }
-/************ End button scroll up *********/

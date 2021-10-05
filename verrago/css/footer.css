@@ -2,13 +2,14 @@
 
 footer {
   background-color: #1a1a1a;
+  border-bottom: 2px solid white;
 }
 .footer {
-  width: 90%;
-  min-height: 50vh;
-  margin: 0 auto;
   display: flex;
+  flex-direction: row ;
   background: transparent;
+  padding: 20px;
+
 }
 
 .right_,
@@ -18,10 +19,11 @@ footer {
 }
 .right_ {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: space-around;
 }
+
 
 .right_ h1 {
   color: #fff;
