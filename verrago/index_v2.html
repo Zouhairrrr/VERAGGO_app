@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/home_2.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- [if lt IE 9]>
@@ -21,6 +22,7 @@
 <body oncontextmenu="return true;">
 
     <!--       start navbar-->
+
     <nav class="navbar navbar-expand-lg navbar-dark  sticky-top ">
         <div class="container-fluid">
             <img src="./img/Verrago _logo_white.png" href="./index.html"></img>
@@ -33,32 +35,28 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Accueil</a>
+                        <a class="nav-link active" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./about.html">A poropos</a>
+                        <a class="nav-link" href="./about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./product.html">Produits</a>
+                        <a class="nav-link" href="./product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Servises</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link " href="">FR</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link " href=""><span class="material-icons-outlined">EN</span></a>
-                    </li>
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link " href=""><i class="fa fa-language active" aria-hidden="true"></i></a>
+                    </li> -->
                 </ul>
 
             </div>
         </div>
     </nav>
-
     <!--        end navbar-->
 
     <!--Start slider    -->
@@ -115,7 +113,7 @@
             </div>
         </div>
     </div>
-    <section id="contact" class="add-padding border-top-color2">
+    <!-- <section id="contact" class="add-padding border-top-color2">
 
         <div class="container text-center">
 
@@ -133,7 +131,7 @@
 
                 </div>
 
-                <!--=== Contact Form ===-->
+               === Contact Form ===
 
                 <form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="contact.php"
                     method="post" novalidate>
@@ -146,7 +144,7 @@
                                 data-error-empty="Please enter your name">
                             <i class="fa fa-user"></i>
                         </div>
-                    </div><!-- End name input -->
+                    </div> End name input 
 
                     <div class="form-group">
                         <label class="control-label" for="contact-mail">Email</label>
@@ -156,7 +154,7 @@
                                 data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
                             <i class="fa fa-envelope"></i>
                         </div>
-                    </div><!-- End email input -->
+                    </div> End email input 
 
                     <div class="form-group">
                         <label class="control-label" for="contact-message">Message</label>
@@ -166,34 +164,199 @@
                                 data-error-empty="Please enter your message"></textarea>
                             <i class="fa fa-comment"></i>
                         </div>
-                    </div><!-- End textarea -->
+                    </div> End textarea 
 
                     <p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!"
                             data-sending-message="Sending..." data-ok-message="Message Sent"><i
                                 class="fa fa-paper-plane"></i>Envoyer Message</button></p>
                     <input type="hidden" name="submitted" id="submitted" value="true" />
-                </form><!-- End contact-form -->
+                </form> End contact-form 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- ==============================================
     FOOTER
     =============================================== -->
+    <footer>
+        <div class="footer">
+            <div class="right_">
+                <h1 class="big-text">Contactez Nous</h1>
+                <p><span class="span_">Tel :</span> +222 45297874</p>
+                <p><span class="span_">Email :</span> contact@verrago.net</p>
+                <p><span class="span_">Adresse :</span> ILOT O 18 BP 4350, Nouakchott, Mauritanie</p>
+            </div>
+            <div class="form">
+                <form id="contact-form" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3"
+                    action="contact.php" method="post" novalidate>
+                    <div class="form-group">
+                        <label class="control-label" for="contact-mail">Email</label>
+                        <div class=" controls">
+                            <input id="contact-mail" name="email" placeholder="Your email"
+                                class="form-control requiredField" data-new-placeholder="Your email" type="email"
+                                data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                    </div>
 
-    <footer id="main-footer" class="add-padding border-top-color2">
-        <div class="container">
-            <ul class="social-links text-center">
-                <li><a href="#" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-whatsapp fa-fw"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
-            </ul>
-        </div>
-        <div class="copyright">
-            <p>&copy; Copyright <strong>Verrago</strong>. All Rights Reserved</p>
+                    <div class="form-group">
+                        <label class="control-label" for="contact-message">Message</label>
+                        <div class="controls">
+                            <textarea id="contact-message" name="comments" placeholder="Your message"
+                                class="form-control requiredField" data-new-placeholder="Your message" rows="6"
+                                data-error-empty="Please enter your message"></textarea>
+                            <i class="fa fa-comment"></i>
+                        </div>
+                    </div>
+
+                    <p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!"
+                            data-sending-message="Sending..." data-ok-message="Message Sent"><i
+                                class="fa fa-paper-plane"></i>Envoyer Message</button></p>
+                    <input type="hidden" name="submitted" id="submitted" value="true" />
+                </form>
+            </div>
+            <div class="left">
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="90%" viewBox="0 0 12759.000000 4075.000000"
+                    preserveAspectRatio="xMidYMid meet">
+
+                    <g transform="translate(0.000000,4075.000000) scale(0.100000,-0.100000)" fill="white" stroke="none">
+                        <path fill="red" d="M14134 38120 c-1022 -1441 -1863 -2620 -1869 -2620 -5 0 -1412 436
+               -3125 969 l-3115 969 -3 -42 c-1 -22 47 -1409 107 -3081 61 -1672 112 -3076
+               113 -3119 l3 -80 -3112 -1101 c-1712 -605 -3115 -1103 -3118 -1107 -3 -3 879
+               -1100 1960 -2439 1081 -1338 1964 -2437 1963 -2441 -2 -4 -885 -1099 -1963
+               -2434 -1078 -1334 -1961 -2429 -1962 -2432 -2 -6 6171 -2198 6222 -2210 17 -4
+               4029 5209 4016 5218 -6 3 -1424 422 -3151 931 -1727 508 -3140 927 -3140 930
+               0 3 1416 423 3147 932 1731 510 3149 929 3151 932 2 2 -9 21 -25 42 -349 447
+               -3974 5166 -3971 5169 3 2 1395 -491 3094 -1095 l3089 -1099 2 111 c2 62 -37
+               1541 -86 3287 -49 1746 -88 3176 -87 3177 1 1 839 -1219 1862 -2712 1415
+               -2066 1862 -2711 1870 -2702 28 29 3715 5420 3712 5427 -7 18 -3714 5240
+               -3720 5240 -3 0 -842 -1179 -1864 -2620z" />
+                        <path d="M13945 27219 c-154 -23 -371 -97 -513 -176 -493 -273 -738 -591 -808
+               -1048 -24 -154 -14 -471 20 -630 14 -66 36 -151 49 -190 36 -103 7639 -18103
+               7696 -18220 127 -258 305 -466 530 -617 213 -142 433 -232 671 -274 115 -20
+               344 -14 460 11 203 45 425 140 600 256 195 129 398 363 528 609 65 124 7682
+               18126 7738 18290 75 220 89 302 89 555 0 206 -2 227 -27 327 -65 258 -186 468
+               -377 658 -238 236 -504 375 -834 437 -145 27 -457 24 -605 -5 -460 -92 -801
+               -370 -1027 -837 -30 -60 -1420 -3552 -3090 -7760 -1671 -4207 -3040 -7656
+               -3045 -7664 -4 -7 -10 -10 -13 -5 -3 5 -1455 3447 -3226 7649 -1772 4202
+               -3244 7686 -3272 7742 -182 370 -456 649 -771 785 -222 96 -542 140 -773 107z" />
+                        <path d="M39555 22270 c-1188 -80 -2260 -415 -3301 -1033 -1073 -637 -1959
+               -1536 -2647 -2687 -661 -1107 -1033 -2349 -1142 -3820 -126 -1702 109 -3217
+               702 -4528 518 -1146 1285 -2108 2270 -2849 1199 -902 2598 -1420 4233 -1567
+               445 -40 1134 -53 1485 -27 1118 81 2038 340 3105 872 614 306 1111 631 1490
+               973 47 42 128 114 180 160 197 173 350 352 450 526 223 389 234 869 29 1250
+               -59 109 -122 193 -221 296 -181 187 -379 296 -638 351 -130 27 -390 25 -537
+               -5 -149 -30 -319 -89 -482 -168 -111 -53 -157 -83 -275 -177 -286 -231 -704
+               -531 -901 -649 -213 -128 -563 -285 -860 -388 -519 -179 -1064 -263 -1800
+               -277 -597 -11 -1073 41 -1575 173 -1800 472 -3176 1908 -3619 3775 -47 198
+               -121 616 -121 684 0 13 708 15 5363 18 l5362 2 93 22 c145 34 247 70 377 134
+               364 178 649 496 758 844 63 201 76 346 58 670 -76 1406 -432 2595 -1123 3753
+               -330 553 -709 1042 -1158 1493 -629 631 -1362 1147 -2160 1519 -775 362 -1528
+               567 -2370 645 -195 19 -834 28 -1025 15z m945 -2824 c1015 -130 1899 -547
+               2594 -1226 423 -413 696 -815 890 -1307 123 -315 216 -766 216 -1053 l0 -130
+               -4360 0 -4360 0 5 23 c3 12 20 90 39 172 173 759 532 1516 980 2070 178 219
+               482 505 726 680 607 438 1406 707 2330 785 167 14 793 4 940 -14z" />
+                        <path d="M58360 22274 c-25 -2 -106 -8 -180 -14 -890 -71 -1794 -388 -2550
+               -893 -316 -211 -543 -399 -841 -696 -436 -436 -748 -859 -1015 -1376 l-93
+               -179 -4 734 c-4 605 -7 749 -20 816 -65 346 -193 592 -427 824 -270 267 -592
+               406 -985 426 -489 26 -934 -157 -1223 -501 -206 -245 -315 -505 -351 -837 -15
+               -132 -15 -13064 -1 -13193 40 -357 172 -650 402 -890 206 -216 431 -344 723
+               -411 104 -24 147 -28 325 -32 175 -3 223 -1 325 16 301 52 544 176 768 392
+               245 236 370 470 444 830 16 80 17 339 23 4040 6 4315 2 3989 61 4415 133 968
+               544 1900 1153 2609 474 554 1010 923 1641 1132 292 96 533 135 835 135 392 0
+               656 -52 984 -193 227 -98 373 -142 571 -172 446 -67 786 10 1124 258 362 265
+               532 659 535 1241 1 204 -9 284 -51 420 -113 361 -418 676 -863 889 -194 93
+               -404 156 -645 192 -95 15 -553 27 -665 18z" />
+                        <path d="M70895 22269 c-701 -52 -1316 -212 -1950 -506 -769 -358 -1474 -926
+               -2020 -1628 -199 -256 -407 -581 -551 -864 l-79 -153 -5 743 c-6 804 -6 799
+               -64 999 -100 344 -341 654 -661 850 -364 223 -870 272 -1312 125 -206 -69
+               -374 -174 -538 -339 -267 -268 -404 -577 -435 -979 -13 -175 -13 -12902 0
+               -13074 18 -226 64 -402 154 -588 194 -398 557 -681 994 -776 122 -26 443 -37
+               575 -20 327 44 610 184 848 420 219 218 348 462 416 788 15 71 17 430 23 4018
+               6 3608 8 3954 23 4110 76 762 228 1318 526 1930 120 247 192 372 336 590 415
+               624 949 1108 1540 1395 445 216 834 311 1270 311 393 -1 667 -55 993 -197 249
+               -109 459 -163 712 -185 407 -34 754 80 1068 351 243 209 390 529 432 939 15
+               151 13 383 -5 487 -72 416 -355 762 -835 1017 -191 102 -454 185 -700 222
+               -135 21 -565 29 -755 14z" />
+                        <path d="M81370 22269 c-421 -25 -893 -96 -1278 -194 -1391 -350 -2661 -1168
+               -3632 -2340 -205 -246 -496 -660 -672 -955 -557 -929 -910 -1906 -1092 -3020
+               -132 -807 -169 -1773 -100 -2630 127 -1589 596 -2975 1426 -4212 553 -824
+               1219 -1494 2023 -2033 998 -669 2106 -1043 3335 -1124 885 -59 1677 34 2425
+               284 613 204 1253 530 1771 901 460 329 931 772 1254 1182 l65 82 6 -403 c3
+               -224 11 -435 18 -477 56 -358 188 -626 426 -865 203 -203 447 -332 740 -392
+               131 -26 523 -26 645 1 194 42 349 105 497 202 354 230 577 555 665 971 l23
+               108 3 6680 c2 5002 0 6708 -8 6790 -39 363 -188 666 -453 922 -303 292 -672
+               428 -1112 410 -241 -10 -416 -52 -610 -146 -150 -73 -262 -155 -385 -280 -236
+               -240 -375 -519 -431 -861 -7 -44 -15 -235 -18 -456 l-6 -381 -75 84 c-320 360
+               -850 803 -1305 1089 -927 584 -1939 938 -2975 1039 -355 34 -831 44 -1170 24z
+               m1445 -2794 c847 -100 1549 -385 2194 -889 448 -350 846 -796 1146 -1288 475
+               -776 744 -1610 841 -2613 21 -226 30 -869 15 -1115 -38 -607 -137 -1128 -316
+               -1665 -444 -1331 -1305 -2375 -2420 -2933 -574 -287 -1186 -431 -1900 -449
+               -869 -21 -1650 165 -2340 555 -129 73 -411 263 -530 358 -335 266 -626 565
+               -877 899 -394 524 -722 1205 -907 1880 -148 538 -217 1042 -228 1665 -12 677
+               45 1211 193 1809 178 722 508 1428 924 1979 251 333 546 635 875 896 127 101
+               405 288 549 371 559 319 1182 505 1871 559 135 10 776 -3 910 -19z" />
+                        <path d="M100220 22273 c-789 -41 -1475 -179 -2155 -435 -1242 -467 -2392
+               -1348 -3238 -2483 -808 -1083 -1318 -2289 -1542 -3645 -97 -588 -130 -1024
+               -129 -1705 0 -568 18 -873 79 -1355 185 -1449 687 -2731 1519 -3880 450 -621
+               1061 -1233 1671 -1672 1072 -771 2230 -1206 3521 -1322 1094 -99 2015 24 2960
+               397 790 311 1449 712 2039 1239 328 293 654 668 851 979 l59 93 3 -700 c5
+               -1188 -19 -1532 -139 -2024 -169 -689 -485 -1257 -969 -1740 -292 -292 -564
+               -486 -952 -679 -590 -295 -1256 -461 -2133 -533 -216 -17 -986 -18 -1155 0
+               -457 47 -896 138 -1483 307 -337 96 -619 191 -1037 347 -478 179 -1020 360
+               -1175 392 -428 89 -791 48 -1067 -118 -232 -140 -401 -364 -561 -741 -75 -175
+               -97 -263 -104 -411 -10 -202 28 -374 122 -558 144 -284 391 -517 800 -755 62
+               -36 157 -96 212 -133 326 -221 992 -465 1888 -693 850 -216 1620 -352 2355
+               -417 188 -17 942 -16 1190 0 1144 77 2122 287 3060 657 1197 471 2126 1169
+               2864 2150 359 477 606 925 818 1485 208 548 358 1219 427 1905 48 479 46 117
+               46 7595 l0 7045 -23 105 c-71 322 -193 550 -412 770 -164 165 -330 268 -549
+               340 -179 59 -283 74 -516 74 -215 0 -302 -11 -470 -59 -487 -141 -886 -585
+               -1007 -1123 -20 -92 -22 -126 -25 -639 -2 -299 -7 -543 -11 -542 -4 0 -42 44
+               -85 97 -183 225 -477 522 -757 762 -413 355 -861 651 -1370 906 -891 445
+               -1676 656 -2655 714 -152 9 -620 11 -765 3z m1390 -2797 c690 -77 1302 -270
+               1840 -579 1342 -771 2249 -2195 2489 -3909 105 -750 84 -1584 -60 -2313 -42
+               -214 -121 -511 -189 -717 -172 -516 -435 -1038 -733 -1455 -563 -791 -1329
+               -1381 -2202 -1698 -369 -133 -798 -225 -1250 -267 -182 -17 -778 -17 -945 0
+               -1010 102 -1789 415 -2555 1026 -174 140 -525 484 -667 656 -564 682 -945
+               1504 -1132 2440 -87 433 -126 855 -126 1350 0 1044 190 1925 594 2756 261 536
+               557 955 956 1354 792 792 1779 1257 2880 1359 63 6 133 13 155 15 111 10 809
+               -3 945 -18z" />
+                        <path d="M119175 22273 c-1346 -65 -2519 -398 -3610 -1023 -627 -360 -1174
+               -778 -1680 -1285 -857 -857 -1512 -1905 -1895 -3032 -298 -875 -440 -1745
+               -457 -2783 -29 -1909 412 -3495 1371 -4925 973 -1451 2390 -2530 4040 -3076
+               1242 -412 2692 -515 4066 -289 1324 218 2534 759 3590 1605 771 618 1408 1368
+               1926 2271 568 990 911 2122 1019 3354 48 563 48 1217 -1 1795 -97 1150 -410
+               2246 -906 3170 -525 979 -1222 1827 -2048 2490 -1453 1166 -3144 1745 -5065
+               1733 -159 -1 -317 -3 -350 -5z m830 -2788 c395 -35 741 -104 1100 -222 1466
+               -481 2666 -1722 3168 -3278 275 -853 360 -1899 236 -2895 -133 -1071 -548
+               -2041 -1217 -2850 -117 -142 -472 -497 -607 -609 -930 -768 -2016 -1138 -3250
+               -1108 -762 19 -1402 175 -2049 499 -484 242 -887 538 -1287 944 -252 257 -433
+               479 -624 769 -550 832 -844 1733 -915 2803 -13 198 -13 692 0 897 65 1011 309
+               1838 771 2607 637 1061 1602 1855 2701 2222 329 110 705 188 1072 221 201 18
+               693 18 901 0z" />
+                        <path fill="red" d="M119370 16313 c-93 -7 -259 -35 -372 -64 -383 -95 -716 -286 -1004
+               -573 -253 -254 -424 -531 -534 -866 -207 -630 -110 -1341 258 -1891 490 -730
+               1369 -1102 2221 -938 749 144 1354 643 1635 1349 115 291 170 645 146 950 -51
+               651 -367 1229 -880 1609 -413 306 -955 463 -1470 424z" />
+                        <path fill="red" d="M9341 18049 c-1696 -604 -3086 -1101 -3089 -1104 -7 -7 -233 -6161
+               -229 -6255 l2 -66 3120 971 3120 970 7 75 c7 70 179 6279 178 6438 0 51 -4 72
+               -12 71 -7 -1 -1401 -496 -3097 -1100z" />
+                    </g>
+                </svg>
+                <div class="icons ebusiness">
+                    <ul>
+                        <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#!"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#!"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#!"><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
+    <div class="copyright">
+        <p>&copy; Copyright <strong>Verrago</strong>. All Rights Reserved</p>
+    </div>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -206,4 +369,3 @@
 </body>
 
 </html>
-

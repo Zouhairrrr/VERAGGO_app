@@ -72,17 +72,6 @@ section {
 } */
 
 
-body {
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  background: #f8f8f8;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
-body * {
-  box-sizing: inherit;
-}
 
 .wrapper {
   width: 40em;
@@ -125,11 +114,7 @@ h1 {
   margin: 0;
 }
 
-footer {
-  margin: 4em auto;
-  text-align: center;
-  font-size: 0.9em;
-}
+
 
 a {
   text-decoration: none;

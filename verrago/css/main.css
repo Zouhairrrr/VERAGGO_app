@@ -598,9 +598,9 @@ video {
   outline: none;
   box-shadow: none;
   height: 56px;
+  color: white;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 20px;
-  font-weight: 100;
   padding-left: 64px;
   -webkit-transition: border-color 0.3s ease-out;
   transition: border-color 0.3s ease-out;
@@ -637,9 +637,11 @@ video {
 #contact-form textarea.form-control {
   height: auto;
   max-width: 100%;
+  color: white;
+  font-weight: bold;
   min-width: 100%;
   font-size: 16px;
-  line-height: 12px;
+  line-height: 20px;
   padding-top: 10px;
 }
 
