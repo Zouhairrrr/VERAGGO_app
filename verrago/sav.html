@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Video</title>
-    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/sav.css" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -16,6 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Roboto&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body oncontextmenu="return true;">
@@ -33,7 +34,7 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
+                        <a class="nav-link" href="./index_v2.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">About</a>
@@ -47,9 +48,6 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <!-- <li class="nav-item active">
-                        <a class="nav-link " href=""><i class="fa fa-language active" aria-hidden="true"></i></a>
-                    </li> -->
                 </ul>
 
             </div>
@@ -57,31 +55,24 @@
     </nav>
     <!--        end navbar-->
     <!--        start section video-->
-    <div class="home">
+    <div class="home_">
         <video muted loop autoplay>
             <source src="./img/videos/SAV & maintenence.mp4" type="video/mp4">
         </video>
-        <div class="home-content">
-            <div class="bag">
-                <img src="./img/Verrago _logo_white.png" width="30%" />
+        <div class="home_-content">
+            <div class="overlay"></div>
+            <div class="content-text">
+                <h1 class="animate__animated animate__pulse">SAV<span>&amp;</span>maintenance</h1>
+                <p class="animate__animated animate__backInDown 2s">
+                    Parce que votre satisfaction est notre priorité, nous avons mis en place un service après- vente et
+                    maintenance à travers lequel notre équipe terrain est à votre écoute pour des conseils personnalisés
+                    et une assistance technique de proximité 24/7.
+                </p>
             </div>
-            <div class="middle-line"></div>
-            <button><a href="./product.html" style="text-decoration: none; color: #fff;">EXPLOER NOS
-                    PRODUITS</a></button>
         </div>
     </div>
     <!--        END section video-->
 
-    <!--        start section prop-->
-    <div class="prop">
-        <div class="text_pro">
-            <h1>SAV &amp; maintenance</h1>
-            <p>Parce que votre satisfaction est notre priorité, nous avons mis en place un service après-
-                vente et maintenance à travers lequel notre équipe terrain est à votre écoute pour des
-                conseils personnalisés et une assistance technique de proximité 24/7.</p>
-        </div>
-    </div>
-    <!--        END section prop-->
     <!-- start footer -->
     <footer>
         <div class="footer">
@@ -259,10 +250,11 @@
             </div>
         </div>
     </footer>
+    <!--        end footer-->
+
     <div class="copyright">
         <p>&copy; Copyright <strong>Verrago</strong>. All Rights Reserved</p>
     </div>
-    <!--        end footer-->
 </body>
 
 </html>
