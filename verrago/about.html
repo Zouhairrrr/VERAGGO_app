@@ -16,7 +16,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Roboto&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body oncontextmenu="return true;">
@@ -65,29 +64,17 @@
         </video>
         <div class="home_-content">
             <div class="overlay"></div>
-            <div class="content-text">
-                <h1 class="animate__animated animate__pulse"><span>A</span> propos</h1>
-                <p class="animate__animated animate__backInDown 2s">
-                    Verrago est une entreprise spécialisée dans la distribution de fournitures industrielles
-                    techniques.
-                    Forte de ses nombreuses expériences dans les secteurs Oil &amp; Gas et Mines, et partenaire des
-                    plus grands noms de l’industrie, Verrago accompagne ses clients et leur offre des solutions
-                    clés en main en termes d’amélioration des performances de leurs machines et processus.
-                    6 familles de produits, une vaste gamme d’outils industriels, des milliers d’articles
-                    techniques, des conseils judicieux de nos experts ingénieurs, une approche de proximité, un
-                    accompagnement technique, un service après-vente et maintenance 24/7, et bien d’autres
-                    avantages mis à votre disposition pour répondre rapidement et efficacement à vos besoins.
-                </p>
-            </div>
+            <h1 class="animate__animated animate__pulse"><span>A</span> propos</h1>
         </div>
     </div>
     <!--        END section video-->
 
     <!--        start section prop-->
-    <div class="prop">
-        <!-- <div class="text_pro">
-            <h1>A propos</h1>
-            <p>Verrago est une entreprise spécialisée dans la distribution de fournitures industrielles
+    <div class="prop" id="slide">
+        <div class="text_pro">
+            <h1 class="animate__animated animate__pulse"><span>A</span> propos</h1>
+            <p class="animate__animated animate__backInDown 2s">Verrago est une entreprise spécialisée dans la
+                distribution de fournitures industrielles
                 techniques.
                 Forte de ses nombreuses expériences dans les secteurs Oil &amp; Gas et Mines, et partenaire des
                 plus grands noms de l’industrie, Verrago accompagne ses clients et leur offre des solutions
@@ -96,7 +83,7 @@
                 techniques, des conseils judicieux de nos experts ingénieurs, une approche de proximité, un
                 accompagnement technique, un service après-vente et maintenance 24/7, et bien d’autres
                 avantages mis à votre disposition pour répondre rapidement et efficacement à vos besoins.</p>
-        </div> -->
+        </div>
     </div>
     <!--        END section prop-->
     <!-- start footer -->
@@ -280,6 +267,19 @@
         <p>&copy; Copyright <strong>Verrago</strong>. All Rights Reserved</p>
     </div>
     <!--        end footer-->
+    <script>
+        init();
+        function init() {
+            const scroll = document.getElementById('slide').addEventListener("scroll", scrollTop());
+        }
+        function scrollTop() {
+            let scrollTop = this.scrollY;
+            // console.log(scrollTop)
+            while (scrollTop === 0) {
+                return scrollTop = 550;
+            }
+        }
+    </script>
 </body>
 
 </html>

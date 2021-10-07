@@ -24,7 +24,10 @@ footer {
   justify-content: space-around;
 }
 
-
+.btn_{
+  color: #fff !important;
+  background: #d82730 !important;
+}
 .right_ h1 {
   color: #fff;
   font-size: 40px;

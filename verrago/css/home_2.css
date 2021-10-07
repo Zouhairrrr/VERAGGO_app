@@ -133,6 +133,7 @@
 }
 
 .slider {
+  animation: pulse 2s;
   position: relative;
   text-align: center;
   height: 100%;
@@ -172,11 +173,20 @@ video {
 .slider .carousel-inner .caption {
   position: absolute;
   z-index: 999;
-  top: 50%;
-  left: 0;
-  bottom: 50%;
-  right: 0;
+  top: 0%;
+  left: 50%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  transform: translate(-50%, 50%);
+  bottom: 0%;
+  right: 50%;
   color: #000;
+  width: 400px;
+  border-radius: 12px;
+  height: 300px;
+  background-color: rgb(177 39 39 / 39%);
 }
 
 .slider .carousel-inner .caption h1 {
@@ -330,19 +340,17 @@ video {
   border: 3px solid #d82730;
 }
 
-
 .btn-color1,
 .btn-color2 {
   padding: 10px 30px;
-  color: #fff;
+  color: #fff !important;
   font-size: 21px;
   font-weight: 300;
-  background: #d82730;
+  background: #d82730 !important;
   outline: none !important;
   border-radius: 0;
   transition: opacity 0.2s ease-out;
 }
-
 
 .btn-color1:hover,
 .btn-color2:hover {
@@ -361,8 +369,6 @@ video {
 .btn-color2 .fa {
   margin-right: 15px;
 }
-
-
 
 #contact-form .form-group label {
   display: none;

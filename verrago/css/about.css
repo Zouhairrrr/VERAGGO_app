@@ -1,8 +1,10 @@
 /** @format */
 
 .home_ {
+  
   height: 100vh;
   position: relative;
+  animation: pulse 2s;
 }
 video {
   position: absolute;
@@ -17,12 +19,8 @@ video {
   text-align: center;
 }
 
-.home_-content .content-text {
-  width: 70%;
-  height: 100%;
-  margin: 0 auto;
-}
-.home_-content .content-text h1 {
+
+.home_-content h1 {
   font-size: clamp(4rem, 7vw, 4rem);
   color: #fff;
   letter-spacing: 1.3px;
@@ -30,17 +28,10 @@ video {
   text-shadow: 0 0 12px black;
 }
 
-.home_-content .content-text h1 span {
+.home_-content h1 span {
   color: red;
 }
-.home_-content .content-text p {
-  margin-top: 60px !important;
-  line-height: 2;
-  font-size: clamp(1rem, 1vw, 1rem);
-  margin-top: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  text-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-}
+
 .overlay {
   position: absolute;
   width: 100%;
@@ -49,11 +40,39 @@ video {
   top: 0;
   left: 0;
 }
-@media only screen and (max-width: 800px) {
-  .home_-content {
-    padding-top: 20px;
-  }
-  .home_-content .content-text p {
-    margin-top: 20px;
-  }
+
+.prop {
+  background-color: rgba(255, 255, 255, 0.63);
+  width: 80%;
+  min-height: 400px;
+  margin: 20px auto 5px;
+  box-shadow: 0 0 1px black;
+  animation: fadeInDownBig 5s;
+
+
+}
+.prop .text_pro {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.prop .text_pro h1 {
+  font-size: clamp(4rem, 7vw, 4rem);
+  color: #fff;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  text-shadow: 0 0 12px black;
+}
+.prop .text_pro h1 span {
+  color: red;
+}
+.prop .text_pro p {
+  margin-top: 10px ;
+  line-height: 2;
+  font-size: clamp(1rem, .5vw, 1rem);
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.911);
+  text-shadow: 0 0 12px rgba(226, 214, 214, 0.5);
 }
