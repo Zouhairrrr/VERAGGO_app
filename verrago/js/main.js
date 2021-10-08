@@ -21,41 +21,41 @@ $(document).ready(function () {
 
 // ...........................
 
-     $(window).scroll(function(){
-         $('.navbar').toggleClass('scroll-top',$(this).scrollTop() > 150);
-     });
+    //  $(window).scroll(function(){
+    //      $('.navbar').toggleClass('scroll-top',$(this).scrollTop() > 150);
+    //  });
     
-    $('.navbar .nav-item').click(function(){ 
-        $('.navbar .nav-item').removeClass('active');
-        $(this).addClass('active');});
+    // $('.navbar .nav-item').click(function(){ 
+    //     $('.navbar .nav-item').removeClass('active');
+    //     $(this).addClass('active');});
     
-     $(window).scroll(function(){
-           var scrollLocation = $(this).scrollTop();
-            var scrollLink =$('.navbar .nav-link');
-        scrollLink.each(function(){
-            var number=70;
-            var section = $(this.hash).offset().top - number ;
-            if (section <= scrollLocation){
-                $(this).parent().addClass('active');
-                $(this).parent().siblings().removeClass('active');
-            }   
-            });
-        });
+    //  $(window).scroll(function(){
+    //        var scrollLocation = $(this).scrollTop();
+    //         var scrollLink =$('.navbar .nav-link');
+    //     scrollLink.each(function(){
+    //         var number=70;
+    //         var section = $(this.hash).offset().top - number ;
+    //         if (section <= scrollLocation){
+    //             $(this).parent().addClass('active');
+    //             $(this).parent().siblings().removeClass('active');
+    //         }   
+    //         });
+    //     });
     
         var slider =$('.slider .carousel-inner .caption .learn , .slider .carousel-inner .caption .serv');
-        var num=60;
+        var num=40;
         slider.click(function(){
            $('html , body').animate({
                scrollTop:$(this.hash).offset().top - num
-           },1000);
+           },500);
         });
     
         var s =$('.navbar .nav-link');
-        var n=60;
+        var n=40;
         s.click(function(){
            $('html , body').animate({
                scrollTop:$(this.hash).offset().top - n
-           },1000);
+           },500);
         });
     
     
@@ -67,18 +67,6 @@ $(document).ready(function () {
    $p.isotope({
        itemSelector: '.element-item',
         layoutMode: 'fitRows'
-    });
-    
-    $('.protfolio ul li').click(function(){
-        
-         var s =$(this).attr('data-filter');
-        
-        $('.protfolio ul li').removeClass('active');
-        $(this).addClass('active');
-        
-       
-        $p.isotope({filter: s});
-        
     });
     
     // button scroll top

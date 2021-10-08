@@ -194,7 +194,7 @@ video {
   object-fit: cover;
 }
 
-/* .slider .carousel-inner .caption {
+.slider .carousel-inner .caption {
   position: absolute;
   z-index: 3;
   top: 38%;
@@ -216,9 +216,9 @@ video {
 /* .slider .carousel-inner .caption p {
   font-size: 30px;
   font-weight: 600;
-} */
+}
 
-/* .slider .carousel-inner .caption .serv {
+.slider .carousel-inner .caption .serv {
   background-color: #262626;
   border: 1px solid #524c4d;
   border-radius: 25px;
@@ -226,9 +226,9 @@ video {
   font-size: 20px;
   color: #fff;
   text-decoration: none;
-} */
+}
 
-/* .slider .carousel-inner .caption .learn {
+.slider .carousel-inner .caption .learn {
   border-radius: 25px;
   padding: 10px 20px;
   color: #fff;
@@ -236,7 +236,7 @@ video {
   font-size: 20px;
   color: #fff;
   text-decoration: none;
-} */
+}
 
 .slider .carousel-inner .caption .learn:hover {
   background-color: #d82730;

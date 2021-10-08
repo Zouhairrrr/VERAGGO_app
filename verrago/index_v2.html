@@ -45,8 +45,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <li class="nav-item">
-                        <div class="dropdown open">
+                    <li class="nav-item act">
+                        <!-- <div class="dropdown open">
                             <a class="nav-link dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
                                 <i class="fa fa-language active" aria-hidden="true"></i>
@@ -55,7 +55,8 @@
                                 <a class="dropdown-item" href="#">FR</a>
                                 <a class="dropdown-item" href="#">EN</a>
                             </div>
-                        </div>
+                        </div> -->
+                       <a class="nav-link" href="#">FR</a>
                     </li>
                 </ul>
             </div>
@@ -66,7 +67,6 @@
     <!--Start slider    -->
     <div class="slider" id="home">
         <div id="main-slider" class="carousel slide" data-ride="carousel">
-
             <div class="carousel-inner">
                 <video muted loop autoplay>
                     <source src="./img/videos/homepage.mp4" type="video/mp4">
@@ -311,7 +311,24 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugin.js"></script>
-    <script src="js/main.js"></script>
+    <script>
+        var slider = $('.slider .carousel-inner .caption .learn , .slider .carousel-inner .caption .serv');
+        var num = 40;
+        slider.click(function () {
+            $('html , body').animate({
+                scrollTop: $(this.hash).offset().top - num
+            }, 500);
+        });
+
+        var s = $('.navbar .nav-link');
+        var n = 40;
+        s.click(function () {
+            $('html , body').animate({
+                scrollTop: $(this.hash).offset().top - n
+            }, 500);
+        });
+
+    </script>
     <script src="js/jquery.easypiechart.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/wow.min.js"></script>

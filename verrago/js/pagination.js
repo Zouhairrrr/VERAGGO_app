@@ -1,26 +1,125 @@
 const list_items = [
-    "Item 1",
-    "Item 2",
-    "Item 3",
-    "Item 4",
-    "Item 5",
-    "Item 6",
-    "Item 7",
-    "Item 8",
-    "Item 9",
-    "Item 10",
-    "Item 11",
-    "Item 12",
-    "Item 13",
-    "Item 14",
-    "Item 15",
-    "Item 16",
-    "Item 17",
-    "Item 18",
-    "Item 19",
-    "Item 20",
-    "Item 21",
-    "Item 22"
+    {
+        id: '1',
+        titre: 'Pompe et accessoires',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Robinetterie industrielle',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Tuyaux et Flexibles',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Etanchéité industrielle',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Solution ATEX',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Coffret et accessoires de câblage',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Câbles électriques',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Matériel Pompier et Incendie',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Instrumentation : Mesure et Alarme de Niveau',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Tubes et Raccords',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Protection Individuelle',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Inox : Boulonnerie, Tôles, Barres, Tubes, etc.',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Caillebotis',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Enrouleurs de Câble',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Moteurs Electriques',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Balais de Charbon',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Accouplements',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Freins',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Compteurs volumétriques',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Calculateurs électroniques',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Capteurs de détection',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Contrôle et Anti-débordement',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Signalisation industriel',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Tricônes De Forage',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Groupe electrogene',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Chenilles et Accessoires',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Composant Hydraulique',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Roulement',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Bras de chargement',
+        image: ''
+    }, {
+        id: '1',
+        titre: 'Produit Chimiques',
+        image: ''
+    },
 ];
 
 const list_element = document.getElementById('list');
