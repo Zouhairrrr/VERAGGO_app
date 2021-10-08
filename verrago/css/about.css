@@ -34,7 +34,9 @@ video {
   top: 0;
   left: 0;
 }
-
+.act {
+  color: #d82730 !important;
+}
 .prop {
   background-color: rgb(255, 0, 0);
   width: 50%;

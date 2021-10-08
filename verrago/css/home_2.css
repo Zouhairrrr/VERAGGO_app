@@ -30,6 +30,10 @@
 .navbar-brand span {
   color: #d82730;
 }
+.act{
+  color: #d82730 !important;
+
+}
 
 .navbar-dark .navbar-nav .active .nav-link {
   color: #d82730;

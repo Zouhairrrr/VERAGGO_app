@@ -38,14 +38,23 @@
                         <a class="nav-link" href="./product.html">Produits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./services.html">Services</a>
+                        <a class="nav-link act" href="./services.html">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <!-- <li class="nav-item active">
-                        <a class="nav-link " href=""><i class="fa fa-language active" aria-hidden="true"></i></a>
-                    </li> -->
+                    <li class="nav-item">
+                        <div class="dropdown open">
+                            <a class="nav-link dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-language active" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <a class="dropdown-item" href="#">FR</a>
+                                <a class="dropdown-item" href="#">EN</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
 
             </div>
@@ -89,7 +98,7 @@
             </div>
             <div class="form">
                 <form id="contact-form" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3"
-                    action="contact.php" method="post" novalidate>
+                    action="#" method="post" novalidate>
                     <div class="form-group">
                         <label class="control-label" for="contact-mail">Email</label>
                         <div class=" controls">
@@ -255,17 +264,9 @@
         </div>
     </footer>
     <div class="copyright">
-        <p>&copy; Copyright <strong>Verrago</strong>. All Rights Reserved</p>
+        <p>&copy; Copyright <strong>Verrago</strong>.Tous droits réservés</p>
     </div>
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugin.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/jquery.easypiechart.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/block.js"></script>
+  
 </body>
 
 </html>

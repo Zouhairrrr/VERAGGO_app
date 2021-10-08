@@ -35,10 +35,11 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./index_v2.html">Accueil</a>
+                        <a id="accueil" class="nav-link" href="./index_v2.html">Accueil</a>
+                        <!-- <a id="home" class="nav-link" href="./index_v2.html">Home</a> -->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./about.html">A propos</a>
+                        <a class="nav-link act" href="./about.html">A propos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./product.html">Produits</a>
@@ -49,9 +50,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <!-- <li class="nav-item active">
-                        <a class="nav-link " href=""><i class="fa fa-language active" aria-hidden="true"></i></a>
-                    </li> -->
+                    <li class="nav-item">
+                        <div class="dropdown open">
+                            <a class="nav-link dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-language active" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <a class="dropdown-item" href="#">FR</a>
+                                <a class="dropdown-item" href="#">EN</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
 
             </div>
@@ -281,7 +291,7 @@
         </div>
     </footer>
     <div class="copyright">
-        <p>&copy; Copyright <strong>Verrago</strong>. All Rights Reserved</p>
+        <p>&copy; Copyright <strong>Verrago</strong>.Tous droits réservés</p>
     </div>
     <!--        end footer-->
     <script src="js/abt.js">

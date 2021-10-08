@@ -16,6 +16,9 @@
   width: 65%;
   height: 100%;
 }
+.act {
+  color: #d82730 !important;
+}
 video {
   position: absolute;
   right: 0%;

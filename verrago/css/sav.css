@@ -34,11 +34,14 @@ video {
   top: 0;
   left: 0;
 }
-
+.act {
+  color: #d82730 !important;
+}
 .prop {
 
   background-color: rgb(255, 0, 0);
   width: 50%;
+  min-height: 60%;
   position: absolute;
   left: 10%;
   top: 13%;
@@ -50,14 +53,14 @@ video {
   border-top-right-radius: 22px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 22px;
-  min-height: 50%;
   margin: 20px auto 5px;
   box-shadow: 0 0 1px black;
   animation: bounceInLeft 1s;
 }
 .prop .text_pro {
   text-align: center;
-  /* padding: 10px; */
+  justify-content: space-evenly;
+  height: 43vh;
   display: flex;
   flex-direction: column;
 }
