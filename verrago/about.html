@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VERRAGO || A propos </title>
     <link rel="stylesheet" href="./css/about.css" />
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -16,6 +16,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Roboto&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body oncontextmenu="return true;">
@@ -33,16 +35,16 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./index_v2.html">Home</a>
+                        <a class="nav-link" href="./index_v2.html">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./about.html">About</a>
+                        <a class="nav-link active" href="./about.html">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./product.html">Products</a>
+                        <a class="nav-link" href="./product.html">Produits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./services.html">Servises</a>
+                        <a class="nav-link" href="./services.html">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
@@ -57,53 +59,70 @@
     </nav>
 
     <!--        end navbar-->
-    <!--        start section video-->
-    <div class="home_">
-        <video muted loop autoplay>
-            <source src="./img/videos/A propos.mp4" type="video/mp4">
-        </video>
-        <div class="home_-content">
-            <div class="overlay"></div>
-            <h1 class="animate__animated animate__pulse"><span>A</span> propos</h1>
-        </div>
-    </div>
-    <!--        END section video-->
+    <div class="wrrr">
 
-    <!--        start section prop-->
-    <div class="prop" id="slide">
-        <div class="text_pro">
-            <h1 class="animate__animated animate__pulse"><span>A</span> propos</h1>
-            <p class="animate__animated animate__backInDown 2s">Verrago est une entreprise spécialisée dans la
-                distribution de fournitures industrielles
-                techniques.
-                Forte de ses nombreuses expériences dans les secteurs Oil &amp; Gas et Mines, et partenaire des
-                plus grands noms de l’industrie, Verrago accompagne ses clients et leur offre des solutions
-                clés en main en termes d’amélioration des performances de leurs machines et processus.
-                6 familles de produits, une vaste gamme d’outils industriels, des milliers d’articles
-                techniques, des conseils judicieux de nos experts ingénieurs, une approche de proximité, un
-                accompagnement technique, un service après-vente et maintenance 24/7, et bien d’autres
-                avantages mis à votre disposition pour répondre rapidement et efficacement à vos besoins.</p>
+        <!--        start section video-->
+
+        <div class="home_">
+            <video muted loop autoplay>
+                <source src="./img/videos/A propos.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
         </div>
+        <!--        END section video-->
+        <!--        start section prop-->
+
+        <div class="prop" id="slide">
+            <div class="text_pro">
+                <h1 class="animate__animated animate__pulse"><span>A</span> propos</h1>
+                <p id="text" class="animate__animated animate__backInDown 1s">Verrago est une entreprise spécialisée
+                    dans
+                    la
+                    fourniture industrielle opérant dans le marché africain depuis plusieurs années.
+                    Forte de ses nombreuses expériences dans les secteurs Oil, Gas, Mines et autres, partenaire des plus
+                    grands noms dans ces domaines, Verrago accompagne ses clients et leur offre des solutions clés en
+                    main
+                    en termes d’amélioration des performances de leurs<span class="showmore"> machines, équipements,
+                        installations et
+                        processus.
+                        Plusieurs familles de produits, une vaste gamme d’outils industriels, des milliers d’articles,
+                        des
+                        conseils judicieux de nos experts ingénieurs, une approche de proximité, un accompagnement
+                        technique, un
+                        service après-vente et maintenance 24/7, et bien d’autres avantages mis à votre disposition pour
+                        répondre rapidement et efficacement à vos besoins.
+                    </span>
+
+                </p>
+                <!-- <button id="readMore" type="button" class="btn btn-outline-dark">Afficher la suite</button> -->
+                <button id="readMore" style="background: red !important;" class="btn w-50 m-auto">Afficher la
+                    suite</button>
+            </div>
+        </div>
+        <!--        END section prop-->
+
     </div>
-    <!--        END section prop-->
+
     <!-- start footer -->
     <footer>
         <div class="footer">
             <div class="right_">
                 <h1 class="big-text">Contactez Nous</h1>
-                <p><span class="span_">Tel :</span> +222 45297874</p>
+                <p><span class="span_">Tel :</span> +222 45297874 /+222
+                    31322025</p>
                 <p><span class="span_">Email :</span> contact@verrago.net</p>
-                <p><span class="span_">Adresse :</span> ILOT O 18 BP 4350, Nouakchott, Mauritanie</p>
+                <p><span class="span_">Adresse :</span> Avenue Sidi
+                    Mohamed Diagana 18 BP 4350, Nouakchott -
+                    Mauritanie</p>
             </div>
             <div class="form">
-                <form id="contact-form" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3"
-                    action="contact.php" method="post" novalidate>
+                <form id="contact-form" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3" action="#"
+                    method="post">
                     <div class="form-group">
                         <label class="control-label" for="contact-mail">Email</label>
                         <div class=" controls">
-                            <input id="contact-mail" name="email" placeholder="Your email"
-                                class="form-control requiredField" data-new-placeholder="Your email" type="email"
-                                data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+                            <input id="contact-mail" name="email" placeholder="Votre mail" class="form-control required"
+                                data-new-placeholder="Votre email" type="email">
                             <i class="fa fa-envelope"></i>
                         </div>
                     </div>
@@ -111,14 +130,13 @@
                     <div class="form-group">
                         <label class="control-label" for="contact-message">Message</label>
                         <div class="controls">
-                            <textarea id="contact-message" name="comments" placeholder="Your message"
-                                class="form-control requiredField" data-new-placeholder="Your message" rows="6"
-                                data-error-empty="Please enter your message"></textarea>
+                            <textarea id="contact-message" name="comments" placeholder="Votre message"
+                                class="form-control required" rows="2"></textarea>
                             <i class="fa fa-comment"></i>
                         </div>
                     </div>
 
-                    <p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!"
+                    <p><button name="submit" type="submit" class="btn_ btn-color2 btn-block"
                             data-sending-message="Sending..." data-ok-message="Message Sent"><i
                                 class="fa fa-paper-plane"></i>Envoyer Message</button></p>
                     <input type="hidden" name="submitted" id="submitted" value="true" />
@@ -255,7 +273,6 @@
                 <div class="icons ebusiness">
                     <ul>
                         <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#!"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="#!"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="#!"><i class="fa fa-whatsapp"></i></a></li>
                     </ul>
@@ -267,18 +284,7 @@
         <p>&copy; Copyright <strong>Verrago</strong>. All Rights Reserved</p>
     </div>
     <!--        end footer-->
-    <script>
-        init();
-        function init() {
-            const scroll = document.getElementById('slide').addEventListener("scroll", scrollTop());
-        }
-        function scrollTop() {
-            let scrollTop = this.scrollY;
-            // console.log(scrollTop)
-            while (scrollTop === 0) {
-                return scrollTop = 550;
-            }
-        }
+    <script src="js/abt.js">
     </script>
 </body>
 

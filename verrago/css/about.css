@@ -1,35 +1,29 @@
 /** @format */
 
-.home_ {
-  
-  height: 100vh;
+.wrrr {
+  min-height: 100vh;
+  width: 100%;
   position: relative;
-  animation: pulse 2s;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home_ {
+  position: absolute;
+  right: 0;
+  top: 0%;
+  width: 65%;
+  height: 100%;
 }
 video {
   position: absolute;
+  right: 0%;
+  top: 0%;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-.home_-content {
-  position: relative;
-  padding-top: 40px;
-  color: #fff;
-  text-align: center;
-}
-
-
-.home_-content h1 {
-  font-size: clamp(4rem, 7vw, 4rem);
-  color: #fff;
-  letter-spacing: 1.3px;
-  text-transform: uppercase;
-  text-shadow: 0 0 12px black;
-}
-
-.home_-content h1 span {
-  color: red;
 }
 
 .overlay {
@@ -42,37 +36,70 @@ video {
 }
 
 .prop {
-  background-color: rgba(255, 255, 255, 0.63);
-  width: 80%;
-  min-height: 400px;
+  background-color: rgb(255, 0, 0);
+  width: 50%;
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  padding: 15px;
+  box-shadow: 0 0 2px black;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 22px;
+  min-height: 50%;
   margin: 20px auto 5px;
-  box-shadow: 0 0 1px black;
-  animation: fadeInDownBig 5s;
-
-
+  box-shadow: 0 0 2px black;
+  animation: bounceInLeft 1s;
+  
 }
 .prop .text_pro {
   text-align: center;
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
   flex-direction: column;
 }
 
 .prop .text_pro h1 {
-  font-size: clamp(4rem, 7vw, 4rem);
-  color: #fff;
+  font-size: clamp(5vw, 7vw, 4rem);
+  color: rgb(255, 255, 255);
   letter-spacing: 1.3px;
   text-transform: uppercase;
   text-shadow: 0 0 12px black;
 }
 .prop .text_pro h1 span {
-  color: red;
+  color: rgb(255, 255, 255);
 }
+
 .prop .text_pro p {
-  margin-top: 10px ;
-  line-height: 2;
-  font-size: clamp(1rem, .5vw, 1rem);
+  padding-left: 20px;
+  text-align: start;
+  padding-right: 20px;
   margin-top: 10px;
-  color: rgba(0, 0, 0, 0.911);
-  text-shadow: 0 0 12px rgba(226, 214, 214, 0.5);
+  line-height: 2;
+  font-size: clamp(1rem, 1.2rem, 1rem);
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.911);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+#text.showmore .showmore {
+  -webkit-line-clamp: 10;
+  text-overflow:unset;
+  overflow: unset;
+}
+.showmore {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* number of lines to show */
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+@media only screen and (max-width: 900px) {
+  .props,
+  .home_ {
+    position: unset;
+  }
 }

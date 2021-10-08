@@ -27,6 +27,11 @@ footer {
 .btn_{
   color: #fff !important;
   background: #d82730 !important;
+  font-weight: 300;
+  outline: none !important;
+  border-radius: 0;
+  transition: opacity 0.2s ease-out;
+  border: none;
 }
 .right_ h1 {
   color: #fff;
