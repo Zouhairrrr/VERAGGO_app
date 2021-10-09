@@ -1,0 +1,133 @@
+{
+    "HomePage": [
+        {
+            "navBar": [
+                {
+                    "item1": "Accueil",
+                    "item2": "A propos",
+                    "item3": "Produits",
+                    "item4": "Services",
+                    "item5": "SAV & Maintenance"
+                }
+            ]
+        },
+        {
+            "captions": [
+                {
+                    "item1": "ission",
+                    "item2": "Offrir à nos clients des solutions à forte valeur ajoutée."
+                },
+                {
+                    "item1": "ision",
+                    "item2": "Devenir leader dans la fourniture industrielle dans le marché africain."
+                },
+                {
+                    "item1": "aleurs",
+                    "item2": "Engagement, Efficacité, Rapidité"
+                }
+            ]
+        },
+        {
+            "slug": [
+                {
+                    "slug": "Verrago.. au coeur de l'industrie"
+                }
+            ]
+        },
+        {
+            "copyright": [
+                {
+                    "item": "all rights reserved © 2021"
+                }
+            ]
+        }
+    ],
+    "About": [
+        {
+            "navBar": [
+                {
+                    "item1": "Home",
+                    "item2": "About Us",
+                    "item3": "Products",
+                    "item4": "services",
+                    "item5": "SAV & MAINTENANCE"
+                }
+            ]
+        },
+        {
+            "captions": [
+                {
+                    "title": "ABOUT US",
+                    "desc": "Verrago is a company specialized in industrial supply operating in the Africanmarket for several years.With a wealth of experience in the Oil, Gas, Mining and other sectors, and as apartneroffers them turnkey solutions in terms of improving the performance of theirmachines, equipment, installations and processes.Several product families, a wide range of industrial tools, thousands of items,sound advice from our expert engineers, a local approach, technical support,24/7 after-sales and maintenance services, and many other advantages areavailable to you to respond quickly and efficiently to your needs."
+                }
+            ]
+        },
+        {
+            "copyright": [
+                {
+                    "item": "all rights reserved © 2021"
+                }
+            ]
+        }
+    ],
+    "Services": [
+        {
+            "navBar": [
+                {
+                    "item1": "Home",
+                    "item2": "About Us",
+                    "item3": "Products",
+                    "item4": "services",
+                    "item5": "SAV & MAINTENANCE"
+                }
+            ]
+        },
+        {
+            "captions": [
+                {
+                    "title": "SERVICES",
+                    "item1": "Surface treatment",
+                    "item2": "Coating of all types",
+                    "item3": "Sandblasting",
+                    "item4": "Painting",
+                    "item5": "Welding"
+                }
+            ]
+        },
+        {
+            "copyright": [
+                {
+                    "item": "all rights reserved © 2021"
+                }
+            ]
+        }
+    ],
+    "sav": [
+        {
+            "navBar": [
+                {
+                    "item1": "Home",
+                    "item2": "About Us",
+                    "item3": "Products",
+                    "item4": "Services",
+                    "item5": "SAV & MAINTENANCE"
+                }
+            ]
+        },
+        {
+            "captions": [
+                {
+                    "title": "SAV &amp; maintenance",
+                    "desc": "Because your satisfaction is our priority, we have set up an after-sales and maintenance personalized advice and local technical assistance."
+                }
+            ]
+        },
+        {
+            "copyright": [
+                {
+                    "item": "all rights reserved © 2021"
+                }
+            ]
+        }
+    ]
+}
