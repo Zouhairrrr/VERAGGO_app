@@ -35,11 +35,11 @@ function fr(data) {
 
 
 
-if(window.location.hash){
-    if(window.location)
-}
+// if(window.location.hash){
+//     if(window.location)
+// }
 
-var data = JSON.parse()
+// var data = JSON.parse()
 // console.log (mydata[0]);
 
 // fetch(data)
