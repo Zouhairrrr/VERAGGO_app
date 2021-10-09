@@ -50,22 +50,42 @@ video {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 22px;
   min-height: 50%;
-  margin: 20px auto 5px;
   box-shadow: 0 0 2px black;
-  animation: bounceInLeft 1s;
-  
+  animation: bounceInRight 1s;
 }
+
+/* .text_pro.reado {
+  line-height: 1;
+  max-height: 70vh;
+  overflow: visible !important;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+
+} */
 .prop .text_pro {
   text-align: center;
-  /* padding: 10px; */
   display: flex;
   flex-direction: column;
+  width: 100%;
+  line-height: 2;
+  /* overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; */
 }
+/* #readMore {
+  background: red ;
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+} */
 
 .prop .text_pro h1 {
   font-size: clamp(5vw, 7vw, 4rem);
   color: rgb(255, 255, 255);
   letter-spacing: 1.3px;
+  margin-bottom: 0 !important;
   text-transform: uppercase;
   text-shadow: 0 0 12px black;
 }
@@ -74,34 +94,55 @@ video {
 }
 
 .prop .text_pro p {
-  padding-left: 20px;
   text-align: start;
-  padding-right: 20px;
-  margin-top: 10px;
-  line-height: 2;
-  font-size: clamp(1rem, 1.2rem, 1rem);
+  margin-top: 5px;
+  font-size: clamp(1.2vw, 2vw, 1.2vw);
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.911);
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-}
-
-#text.showmore .showmore {
-  -webkit-line-clamp: 10;
-  text-overflow:unset;
-  overflow: unset;
-}
-.showmore {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  /* number of lines to show */
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
+  text-shadow: 0 0 2px rgb(0 0 0 / 50%);
 }
 
 @media only screen and (max-width: 900px) {
   .props,
   .home_ {
     position: unset;
+  }
+  .prop {
+    width: 70%;
+    left: 10%;
+    top: 8%;
+    background-color: rgba(255, 0, 0, 0.692);
+  }
+  .prop .text_pro p {
+    font-size: clamp(1.4vw, 1vw, 1vw);
+  }
+}
+@media only screen and (max-width: 700px) {
+  .prop .text_pro p {
+    font-size: clamp(1.2vw, 2vw, 2vw);
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  .prop {
+    top: 4% !important;
+    left: 28%;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 0px;
+  }
+  .prop .text_pro p {
+    font-size: clamp(2.2vw, 2vw, 2vw);
+  }
+}
+
+@media only screen and (max-width: 400) {
+  .prop {
+    top: 1% !important;
+    right: 70% !important;
+  }
+  .prop .text_pro p {
+    font-size: clamp(3.4vw, 2vw, 2vw);
   }
 }

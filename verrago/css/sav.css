@@ -38,7 +38,6 @@ video {
   color: #d82730 !important;
 }
 .prop {
-
   background-color: rgb(255, 0, 0);
   width: 50%;
   min-height: 60%;
@@ -85,11 +84,12 @@ video {
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.911);
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-
 }
 
+
+
 @media only screen and (max-width: 900px) {
-  .props,
+  .prop,
   .home_ {
     position: unset;
   }

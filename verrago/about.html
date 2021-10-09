@@ -34,8 +34,7 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
 
                     <li class="nav-item">
-                        <a id="accueil" class="nav-link" href="./index.html">Accueil</a>
-                        <!-- <a id="home" class="nav-link" href="./index_v2.html">Home</a> -->
+                        <a class="nav-link " href="./index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link act" href="./about.html">A propos</a>
@@ -49,11 +48,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item act">
+                        <!-- <div class="dropdown open">
+                            <a class="nav-link dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-language active" aria-hidden="true"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="triggerId">
+                                <a class="dropdown-item" href="#">FR</a>
+                                <a class="dropdown-item" href="#">EN</a>
+                            </div>
+                        </div> -->
                         <a class="nav-link act" href="#">FR</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
@@ -75,14 +83,14 @@
         <div class="prop" id="slide">
             <div class="text_pro">
                 <h1 class="animate__animated animate__pulse"><span>A</span> propos</h1>
-                <p id="text" class="animate__animated animate__backInDown 1s">Verrago est une entreprise spécialisée
+                <p class="text animate__animated animate__backInDown 1s">Verrago est une entreprise spécialisée
                     dans
                     la
                     fourniture industrielle opérant dans le marché africain depuis plusieurs années.
                     Forte de ses nombreuses expériences dans les secteurs Oil, Gas, Mines et autres, partenaire des plus
                     grands noms dans ces domaines, Verrago accompagne ses clients et leur offre des solutions clés en
                     main
-                    en termes d’amélioration des performances de leurs<span class="showmore"> machines, équipements,
+                    en termes d’amélioration des performances de leurs<span class="spans"> machines, équipements,
                         installations et
                         processus.
                         Plusieurs familles de produits, une vaste gamme d’outils industriels, des milliers d’articles,
@@ -92,11 +100,9 @@
                         service après-vente et maintenance 24/7, et bien d’autres avantages mis à votre disposition pour
                         répondre rapidement et efficacement à vos besoins.
                     </span>
-
                 </p>
-                <!-- <button id="readMore" type="button" class="btn btn-outline-dark">Afficher la suite</button> -->
-                <button id="readMore" style="background: red !important;" class="btn w-50 m-auto">Afficher la
-                    suite</button>
+                <!-- <button id="readMore" class="btn">Afficher la
+                    suite</button> -->
             </div>
         </div>
         <!--        END section prop-->
@@ -284,8 +290,11 @@
         <p>&copy; Copyright <strong>Verrago</strong>.Tous droits réservés</p>
     </div>
     <!--        end footer-->
-    <script src="js/abt.js">
-    </script>
+    <script src="js/abt.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
 </body>
 
 </html>

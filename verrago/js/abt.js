@@ -1,11 +1,11 @@
 
 
 const readMore = document.getElementById('readMore');
-const text = document.getElementById('text');
+const div_ = document.querySelector('spans');
 
 
 
 
 readMore.addEventListener("click", (e) => {
-    text.classList.toggle("showmore");
+    div_.classList.toggle("reado");
 })

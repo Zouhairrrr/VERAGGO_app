@@ -133,11 +133,18 @@
     grid-template-columns: repeat(2, 400px);
   }
 }
+@media only screen and (max-width: 821px) {
+  .product-grid.product-grid--flexbox .product-grid__wrapper {
+    grid-template-columns: repeat(2, 340px) ;
+  }
+}
 @media only screen and (max-width: 685px) {
   .product-grid.product-grid--flexbox .product-grid__wrapper {
-    grid-template-columns: repeat(1, 360px);
+    grid-template-columns: repeat(1, 330px);
   }
   .product-grid__title {
     text-align: center;
   }
 }
+
+/* 821 */
