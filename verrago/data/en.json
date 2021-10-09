@@ -35,6 +35,13 @@
             ]
         },
         {
+            "contact": [
+                {
+                    "item": "Contact Us"
+                }
+            ]
+        },
+        {
             "copyright": [
                 {
                     "item": "all rights reserved © 2021"
@@ -59,6 +66,13 @@
                 {
                     "title": "ABOUT US",
                     "desc": "Verrago is a company specialized in industrial supply operating in the Africanmarket for several years.With a wealth of experience in the Oil, Gas, Mining and other sectors, and as apartneroffers them turnkey solutions in terms of improving the performance of theirmachines, equipment, installations and processes.Several product families, a wide range of industrial tools, thousands of items,sound advice from our expert engineers, a local approach, technical support,24/7 after-sales and maintenance services, and many other advantages areavailable to you to respond quickly and efficiently to your needs."
+                }
+            ]
+        },
+        {
+            "contact": [
+                {
+                    "item": "Contact Us"
                 }
             ]
         },
@@ -95,6 +109,13 @@
             ]
         },
         {
+            "contact": [
+                {
+                    "item": "Contact Us"
+                }
+            ]
+        },
+        {
             "copyright": [
                 {
                     "item": "all rights reserved © 2021"
@@ -123,6 +144,13 @@
             ]
         },
         {
+            "contact": [
+                {
+                    "item": "Contact Us"
+                }
+            ]
+        },
+        {
             "copyright": [
                 {
                     "item": "all rights reserved © 2021"
@@ -131,4 +159,3 @@
         }
     ]
 }
-

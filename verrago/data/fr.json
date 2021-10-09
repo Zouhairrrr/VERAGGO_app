@@ -35,6 +35,13 @@
             ]
         },
         {
+            "contact": [
+                {
+                    "item": "Contactez-nous"
+                }
+            ]
+        },
+        {
             "copyright": [
                 {
                     "item": "all rights reserved © 2021"
@@ -46,26 +53,33 @@
         {
             "navBar": [
                 {
-                    "item1": "Home",
-                    "item2": "About Us",
-                    "item3": "Products",
-                    "item4": "services",
-                    "item5": "SAV & MAINTENANCE"
+                    "item1": "Accueil",
+                    "item2": "A propos",
+                    "item3": "Produits",
+                    "item4": "Services",
+                    "item5": "SAV & Maintenance"
                 }
             ]
         },
         {
             "captions": [
                 {
-                    "title": "ABOUT US",
-                    "desc": "Verrago is a company specialized in industrial supply operating in the Africanmarket for several years.With a wealth of experience in the Oil, Gas, Mining and other sectors, and as apartneroffers them turnkey solutions in terms of improving the performance of theirmachines, equipment, installations and processes.Several product families, a wide range of industrial tools, thousands of items,sound advice from our expert engineers, a local approach, technical support,24/7 after-sales and maintenance services, and many other advantages areavailable to you to respond quickly and efficiently to your needs."
+                    "title": "A PROPOS",
+                    "desc": "Verrago est une entreprise spécialisée dans la fourniture industrielle opérant dans le marché africain depuis plusieurs années. Forte de ses nombreuses expériences dans les secteurs Oil, Gas, Mines et autres, partenaire des plus grands noms dans ces domaines, Verrago accompagne ses clients et leur offre des solutions clés en main en termes d’amélioration des performances de leurs machines, équipements, installations et processus. Plusieurs familles de produits, une vaste gamme d’outils industriels, des milliers d’articles, des conseils judicieux de nos experts ingénieurs, une approche de proximité, un accompagnement technique, un service après-vente et maintenance 24/7, et bien d’autres avantages mis à votre disposition pour répondre rapidement et efficacement à vos besoins."
+                }
+            ]
+        },
+        {
+            "contact": [
+                {
+                    "item": "Contactez-nous"
                 }
             ]
         },
         {
             "copyright": [
                 {
-                    "item": "all rights reserved © 2021"
+                    "item": "© Copyright Verrago.Tous droits réservés"
                 }
             ]
         }
@@ -74,11 +88,11 @@
         {
             "navBar": [
                 {
-                    "item1": "Home",
-                    "item2": "About Us",
-                    "item3": "Products",
-                    "item4": "services",
-                    "item5": "SAV & MAINTENANCE"
+                    "item1": "Accueil",
+                    "item2": "A propos",
+                    "item3": "Produits",
+                    "item4": "Services",
+                    "item5": "SAV & Maintenance"
                 }
             ]
         },
@@ -86,18 +100,25 @@
             "captions": [
                 {
                     "title": "SERVICES",
-                    "item1": "Surface treatment",
-                    "item2": "Coating of all types",
-                    "item3": "Sandblasting",
-                    "item4": "Painting",
-                    "item5": "Welding"
+                    "item1": "Traitement des surfaces",
+                    "item2": "Revêtement tous types",
+                    "item3": "Peinture",
+                    "item4": "Sablage",
+                    "item5": "Soudage"
+                }
+            ]
+        },
+        {
+            "contact": [
+                {
+                    "item": "Contactez-nous"
                 }
             ]
         },
         {
             "copyright": [
                 {
-                    "item": "all rights reserved © 2021"
+                    "item": "@ Copyright Verrago.Tous droits réservés"
                 }
             ]
         }
@@ -106,11 +127,11 @@
         {
             "navBar": [
                 {
-                    "item1": "Home",
-                    "item2": "About Us",
-                    "item3": "Products",
+                    "item1": "Accueil",
+                    "item2": "A propos",
+                    "item3": "Produits",
                     "item4": "Services",
-                    "item5": "SAV & MAINTENANCE"
+                    "item5": "SAV & Maintenance"
                 }
             ]
         },
@@ -118,14 +139,14 @@
             "captions": [
                 {
                     "title": "SAV &amp; maintenance",
-                    "desc": "Because your satisfaction is our priority, we have set up an after-sales and maintenance personalized advice and local technical assistance."
+                    "desc": "Parce que votre satisfaction est notre priorité, nous avons mis en place un service après-vente et maintenance à travers lequel notre équipe terrain est à votre écoute pour des conseils personnalisés et une assistance technique de proximité."
                 }
             ]
         },
         {
             "copyright": [
                 {
-                    "item": "all rights reserved © 2021"
+                    "item": "@ Copyright Verrago.Tous droits réservés"
                 }
             ]
         }
