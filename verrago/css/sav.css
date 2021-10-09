@@ -86,11 +86,45 @@ video {
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-
-
 @media only screen and (max-width: 900px) {
-  .prop,
   .home_ {
     position: unset;
   }
+  
+
+
 }
+
+@media only screen and (max-width: 650px) {
+  .prop .text_pro p {
+    font-size: clamp(2vw, 2vw, 1vw);
+  }
+  .prop {
+    background-color: rgba(255, 0, 0, 0.644);
+    width: 80%;
+    min-height: 40%;
+    align-items: flex-start;
+    box-shadow: 0 0 2px black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .prop .text_pro h1 {
+
+    padding-top: 10px;
+    font-size: clamp(2vw, 2vw, 1vw);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .prop .text_pro h1 {
+
+    font-size: clamp(6vw, 2vw, 1vw);
+  }
+  .prop .text_pro p {
+    font-size: clamp(4vw, 2vw, 1vw);
+  }
+}
+/* 649 */

@@ -59,7 +59,6 @@ video {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 22px;
   min-height: 50%;
-  margin: 20px auto 5px;
   box-shadow: 0 0 2px black;
   animation: bounceInLeft 1s;
 }
@@ -74,8 +73,23 @@ video {
   text-shadow: 0 0 2px rgb(0 0 0 / 64%);
 }
 @media only screen and (max-width: 900px) {
-  .props,
   .homes {
     position: unset;
   }
+  .prop {
+    position: absolute;
+  }
+  .prop .text_pro .homes-content h3 {
+    font-size: clamp(2vw, 1vw, 1vw);
+  }
 }
+@media only screen and (max-width: 700px) {
+
+  .prop .text_pro .homes-content h3 {
+    font-size: clamp(3vw, 2vw,2vw);
+  }
+  .prop{
+   min-height: auto;
+  }
+}
+
