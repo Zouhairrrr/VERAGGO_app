@@ -1,37 +1,46 @@
-const lang = document.querySelector('.Lang');
-const frlink = document.querySelector('.frlink');
-const enlang = document.querySelector('.enLang');
-const enlink = document.querySelector('.enlink');
-
-let en = {};
-let fr = {};
+// const lang = document.querySelector('.Lang');
+// const frlink = document.querySelector('.frlink');
+// const enlang = document.querySelector('.enLang');
+// const enlink = document.querySelector('.enlink');
 
 
-// Replace ./data.json with your JSON feed
-fetch('../engl.json').then(response => {
+// Async
+fetch('./data/en.json').then(response => {
+  return response.json();
+}).then(data => {
+  en(data);
+}).catch(err => {
+  console.log(err);
+});
+
+
+fetch('./data/fr.json').then(response => {
     return response.json();
   }).then(data => {
-    en = data;
-    console.log(data);
- 
+    fr(data);
   }).catch(err => {
     console.log(err);
   });
 
-
-  
-
-
-
+function en(data) {
+  console.log('en :', data);
+}
 
 
+function fr(data) {
+  console.log('fr :', data);
+}
 
-// if(window.location.hash){
-//     if(window.location)
-// }
 
-// var data = JSON.parse()
-// // console.log (mydata[0]);
+
+
+
+if(window.location.hash){
+    if(window.location)
+}
+
+var data = JSON.parse()
+// console.log (mydata[0]);
 
 // fetch(data)
 //   .then(function (response) {
