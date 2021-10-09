@@ -2873,7 +2873,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active,
 .show > .btn-outline-danger.dropdown-toggle {
-  color: #fff;
+  color: rgb(0, 0, 0);
   background-color: #dc3545;
   border-color: #dc3545;
 }
