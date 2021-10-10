@@ -31,6 +31,10 @@
   text-transform: none;
 }
 
+.navbar-collapse {
+  z-index: 99999;
+}
+
 .container-fluid img {
   width: 10%;
 }
@@ -91,7 +95,11 @@
   color: #fff;
 }
 
+
 @media only screen and (max-width: 991px) {
+  #langswitcher {
+    flex-direction: column;
+  }
   .navbar {
     line-height: 20px;
   }
@@ -102,7 +110,7 @@
 
   .navbar-dark .navbar-nav .nav-link {
     font-size: 20px;
-    color: #333;
+    color: #333 !important;
     background: #fff;
     position: relative;
     padding: 0 0 0 20px;

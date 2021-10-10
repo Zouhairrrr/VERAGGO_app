@@ -6,13 +6,6 @@
   padding: 0;
 }
 
-#langswitcher {
-  display: flex;
-}
-
-#lingumania_langswitcher{
-  display: none;
-}
 
 .navbar {
   height: 65px;
