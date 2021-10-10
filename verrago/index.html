@@ -33,7 +33,7 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
 
                     <li class="nav-item">
-                        <a class="nav-link act" href="/">Accueil</a>
+                        <a class="nav-link act" href="./">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">A propos</a>
@@ -47,12 +47,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <li class="Lang nav-item">
+                    <li class="nav-item" id="menuContainer"></li>
+                    <!-- <li class="Lang nav-item">
                         <a class="frlink nav-link" href="#fr">FR</a>
                     </li>
                     <li class="Lang nav-item">
                         <a class="enlink nav-link" href="#en">EN</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -71,24 +72,21 @@
                     <div class="caption">
                         <h1 style="color: white;" class="animate__animated animate__fadeInDownBig 2s"><span
                                 style="color: red;">M</span>ission</h1>
-                        <p style="color: white; opacity: .7;" class="animate__animated animate__fadeInUp 1s">Offrir à
-                            nos clients des solutions à forte valeur ajoutée.</p>
+                        <p style="color: white; opacity: .7;" class="animate__animated animate__fadeInUp 1s">Offrir à nos clients des solutions à forte valeur ajoutée.</p>
                     </div>
                 </div>
                 <div class="carousel-item carousel-two">
                     <div class="caption">
                         <h1 style="color: white;" class="animate__animated animate__fadeInDownBig 2s"><span
                                 style="color: red;">V</span>ision</h1>
-                        <p style="color: white; opacity: .7;" class="animate__animated animate__fadeInUp 1s">Devenir
-                            leader dans la fourniture industrielle dans le marché africain.</p>
+                        <p style="color: white; opacity: .7;" class="animate__animated animate__fadeInUp 1s">Devenir leader dans la fourniture industrielle dans le marché africain.</p>
                     </div>
                 </div>
                 <div class="carousel-item carousel-three">
                     <div class="caption">
                         <h1 style="color: white;" class="animate__animated animate__fadeInDownBig 2s"><span
                                 style="color: red;">V</span>aleurs</h1>
-                        <p style="color: white; opacity: .7;" class="animate__animated animate__fadeInUp 1s">Engagement,
-                            Efficacité, Rapidité</p>
+                        <p style="color: white; opacity: .7;" class="animate__animated animate__fadeInUp 1s">Engagement, Efficacité, Rapidité</p>
                     </div>
                 </div>
             </div>
@@ -260,9 +258,9 @@
             <div class="right_ animate__animated animate__fadeInUp 2s">
                 <h1 style="color: black;" class="big-text">Contactez-nous</h1>
                 <div>
-                    <p style="color: black;"><span style="color: black;" class="span_">Tel:</span> +222 45297874 / +222
+                    <p style="color: black;"><span style="color: black;" class="span_">Tel :</span> +222 45297874 / +222
                         31322025</p>
-                    <p style="color: black;"><span style="color: black;" class="span_">Email:</span> contact@verrago.net
+                    <p style="color: black;"><span style="color: black;" class="span_">Email :</span> contact@verrago.net
                     </p>
                     <p style="color: black;"><span style="color: black;" class="span_">Adresse :</span> Avenue Sidi
                         Mohamed Diagana 18 BP 4350, Nouakchott -
@@ -293,15 +291,17 @@
 
                     <p><button name="submit" type="submit" class="btn btn-color2 btn-block"
                             data-sending-message="Sending..." data-ok-message="Message Sent"><i
-                                class="fa fa-paper-plane"></i>Envoyer Message</button></p>
+                                class="fa fa-paper-plane"></i> <span>Envoyer Message</span></button></p>
                     <input type="hidden" name="submitted" id="submitted" value="true" />
                 </form>
             </div>
         </div>
     </footer>
     <div class="copyright">
-        <p>&copy; Copyright <strong>Verrago</strong>.Tous droits réservés</p>
+        <p>&copy; Copyright <strong>Verrago</strong>. <span>Tous droits réservés</span></p>
     </div>
+    <script src="js/translations/index-JSON-translation.js"></script>
+    <script src="js/lingumania.min.js"></script>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugin.js"></script>
@@ -324,6 +324,8 @@
 
     </script>
     <script src="js/jquery.easypiechart.js"></script>
+
+
 
 </body>
 

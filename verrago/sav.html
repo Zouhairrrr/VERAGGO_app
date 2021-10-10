@@ -44,14 +44,13 @@
                     <li class="nav-item ">
                         <a class="nav-link act" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <li class="nav-item act">
-                       <a class="nav-link act" href="#fr">FR</a>
-                    </li>
+                    <li class="nav-item" id="menuContainer"></li>
+
                 </ul>
             </div>
         </div>
     </nav>
-    <!--        end navbar-->
+    <!-- end navbar -->
     <div class="wrrr">
 
         <!--        start section video-->
@@ -68,10 +67,8 @@
 
         <div class="prop" id="slide">
             <div class="text_pro">
-                <h1 class="animate__animated animate__pulse">SAV<span>&amp;</span><br> maintenance</h1>
-                <p class="animate__animated animate__backInDown 1s">Parce que votre satisfaction est notre priorité,
-                    nous avons mis en place un service après-vente et maintenance à travers lequel notre équipe terrain
-                    est à votre écoute pour des conseils personnalisés et une assistance technique de proximité.
+                <h1 class="animate__animated animate__pulse">SAV<span> &amp;</span><br> maintenance</h1>
+                <p class="animate__animated animate__backInDown 1s">Parce que votre satisfaction est notre priorité,nous avons mis en place un service après-vente et maintenance à travers lequel notre équipe terrain est à votre écoute pour des conseils personnalisés et une assistance technique de proximité.
                 </p>
             </div>
         </div>
@@ -116,7 +113,7 @@
 
                         <p><button name="submit" type="submit" class="btn btn-color2 btn-block"
                                 data-sending-message="Sending..." data-ok-message="Message Sent"><i
-                                    class="fa fa-paper-plane"></i>Envoyer Message</button></p>
+                                    class="fa fa-paper-plane"></i><span>Envoyer Message</span></button></p>
                         <input type="hidden" name="submitted" id="submitted" value="true" />
                     </form>
                 </div>
@@ -262,8 +259,10 @@
     <!--        end footer-->
 
     <div class="copyright">
-        <p>&copy; Copyright <strong>Verrago</strong>.Tous droits réservés</p>
+        <p>&copy; Copyright <strong>Verrago</strong>. <span>Tous droits réservés</span></p>
     </div>
+    <script src="js/translations/sav-JSON-translation.js"></script>
+    <script src="js/lingumania.min.js"></script>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
