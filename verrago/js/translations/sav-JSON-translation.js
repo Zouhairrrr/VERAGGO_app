@@ -52,7 +52,7 @@ var linguJSON = {
     },
       {
           "source": "Parce que votre satisfaction est notre priorité,nous avons mis en place un service après-vente et maintenance à travers lequel notre équipe terrain est à votre écoute pour des conseils personnalisés et une assistance technique de proximité.",
-          "target": "Because your satisfaction is our priority, we have set up an after-sales and maintenance personalized advice and local technical assistance."
+          "target": "Because your satisfaction is our priority, we have set up an after-sales and maintenance service through which our field team is at your disposal for personalized advice and local technical assistance."
       },
       {
           "source": "Contactez-nous",
