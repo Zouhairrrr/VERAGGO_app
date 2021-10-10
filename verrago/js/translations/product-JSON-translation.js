@@ -51,6 +51,10 @@ var linguJSON = {
         "target": "Send Message"
     },
     {
+        "source": "RODUITS",
+        "target": "RODUCTS"
+    },
+    {
         "source": "Oil & Gaz, Mines et autres",
         "target": "Oil & Gas, Mines and others"
     },
