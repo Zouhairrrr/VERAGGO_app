@@ -20,8 +20,8 @@
 </head>
 
 <body oncontextmenu="return true;">
-    <!--       start navbar-->
 
+    <!-- start navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark  sticky-top ">
         <div class="container-fluid">
             <img src="./img/Verrago _logo_white.png" href="./index.html"></img>
@@ -48,12 +48,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <li class="Lang nav-item">
-                        <a class="frlink nav-link" href="#fr">FR</a>
-                    </li>
-                    <li class="Lang nav-item">
-                        <a class="enlink nav-link" href="#en">EN</a>
-                    </li>
+                    <li class="nav-item" id="menuContainer"></li>
+                    <!-- <li class="Lang nav-item">
+                        <a class="frlink nav-link" href="?lang=fr">FR</a>
+                    </li> -->
+                    <!-- <li class="Lang nav-item">
+                        <a class="enlink nav-link" href="?lang=en">EN</a>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -75,23 +76,8 @@
 
         <div class="prop" id="slide">
             <div class="text_pro">
-                <h1 class="animate__animated animate__pulse"><span>A</span> propos</h1>
-                <p class="text animate__animated animate__backInDown 1s">Verrago est une entreprise spécialisée
-                    dans
-                    la
-                    fourniture industrielle opérant dans le marché africain depuis plusieurs années.
-                    Forte de ses nombreuses expériences dans les secteurs Oil, Gas, Mines et autres, partenaire des plus
-                    grands noms dans ces domaines, Verrago accompagne ses clients et leur offre des solutions clés en
-                    main
-                    en termes d’amélioration des performances de leurs machines, équipements,
-                    installations et
-                    processus.
-                    Plusieurs familles de produits, une vaste gamme d’outils industriels, des milliers d’articles,
-                    des
-                    conseils judicieux de nos experts ingénieurs, une approche de proximité, un accompagnement
-                    technique, un
-                    service après-vente et maintenance 24/7, et bien d’autres avantages mis à votre disposition pour
-                    répondre rapidement et efficacement à vos besoins.
+                <h1 class="animate__animated animate__pulse">A propos</h1>
+                <p class="text animate__animated animate__backInDown 1s">Verrago est une entreprise spécialisée dans la fourniture industrielle opérant dans le marché africain depuis plusieurs années. Forte de ses nombreuses expériences dans les secteurs Oil, Gas, Mines et autres, partenaire des plus grands noms dans ces domaines, Verrago accompagne ses clients et leur offre des solutions clés en main en termes d’amélioration des de leurs machines, équipements, installations et processus. Plusieurs familles de produits, une vaste gamme industriels, des milliers d’articles, des conseils judicieux de nos experts ingénieurs, une approche de proximité, un accompagnement technique, un service après-vente et maintenance 24/7, et bien d’autres avantages mis à votre disposition pour répondre rapidement et efficacement à vos besoins.
                 </p>
                 <!-- <button id="readMore" class="btn">Afficher la
                     suite</button> -->
@@ -136,7 +122,7 @@
 
                     <p><button name="submit" type="submit" class="btn_ btn-color2 btn-block"
                             data-sending-message="Sending..." data-ok-message="Message Sent"><i
-                                class="fa fa-paper-plane"></i>Envoyer Message</button></p>
+                                class="fa fa-paper-plane"></i><span>Envoyer Message</span></button></p>
                     <input type="hidden" name="submitted" id="submitted" value="true" />
                 </form>
             </div>
@@ -279,10 +265,11 @@
         </div>
     </footer>
     <div class="copyright">
-        <p>&copy; Copyright <strong>Verrago</strong>.Tous droits réservés</p>
+        <p>&copy; Copyright <strong>Verrago</strong>. <span>Tous droits réservés</span></p>
     </div>
     <!--        end footer-->
-    <script type="text/javascript" src="js/langue.js"></script>
+    <script src="js/translations/about-JSON-translation.js"></script>
+    <script src="js/lingumania.min.js"></script>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugin.js"></script>

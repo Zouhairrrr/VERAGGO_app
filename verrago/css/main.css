@@ -6,6 +6,13 @@
   padding: 0;
 }
 
+#langswitcher {
+  display: flex;
+}
+
+#lingumania_langswitcher{
+  display: none;
+}
 
 .navbar {
   height: 65px;
@@ -287,7 +294,7 @@ video {
 .faq {
   padding: 40px;
 } */
-/* 
+/*
 .faq .tab-content {
   border: 1px solid #dee2e6;
   border-top: none;
@@ -377,7 +384,7 @@ video {
   width: 45%;
   margin: 30px auto;
 } */
-/* 
+/*
 .our .input-group input {
   background-color: #3330;
   border-radius: 20px;

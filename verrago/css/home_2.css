@@ -1,5 +1,13 @@
 /** @format */
 
+#langswitcher {
+  display: flex;
+}
+
+#lingumania_langswitcher{
+  display: none;
+}
+
 .navbar {
   height: 65px;
   line-height: 65px;
@@ -553,7 +561,7 @@ video {
   .ebusiness{
     margin-top: 20px;
   }
-  
+
 }
 .footer .ebusiness img {
   width: 30%;

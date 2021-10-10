@@ -29,7 +29,7 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
 
                     <li class="nav-item">
-                        <a class="nav-link act" href="./index.html">Accueil</a>
+                        <a class="nav-link" href="./index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">A propos</a>
@@ -43,19 +43,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./sav.html">SAV & Maintenance</a>
                     </li>
-                    <li class="nav-item act">
-                        <!-- <div class="dropdown open">
-                            <a class="nav-link dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-language active" aria-hidden="true"></i>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="triggerId">
-                                <a class="dropdown-item" href="#">FR</a>
-                                <a class="dropdown-item" href="#">EN</a>
-                            </div>
-                        </div> -->
-                        <a class="nav-link act" href="#">FR</a>
-                    </li>
+                    <li class="nav-item" id="menuContainer"></li>
                 </ul>
             </div>
         </div>
@@ -121,7 +109,7 @@
 
                     <p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!"
                             data-sending-message="Sending..." data-ok-message="Message Sent"><i
-                                class="fa fa-paper-plane"></i>Envoyer Message</button></p>
+                                class="fa fa-paper-plane"></i><span>Envoyer Message</span></button></p>
                     <input type="hidden" name="submitted" id="submitted" value="true" />
                 </form>
             </div>
@@ -264,8 +252,10 @@
         </div>
     </footer>
     <div class="copyright">
-        <p>&copy; Copyright <strong>Verrago</strong>.Tous droits réservés</p>
+        <p>&copy; Copyright <strong>Verrago</strong>. <span>Tous droits réservés</span></p>
     </div>
+    <script src="js/translations/services-JSON-translation.js"></script>
+    <script src="js/lingumania.min.js"></script>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
