@@ -588,6 +588,7 @@ video {
   list-style: none;
   display: inline-block;
   width: 45px;
+  background-color: white;
   height: 45px;
   border: 1px solid rgb(0, 0, 0);
   text-align: center;
