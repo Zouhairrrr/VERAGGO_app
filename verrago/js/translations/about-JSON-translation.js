@@ -71,7 +71,7 @@
         },
         {
             "source": "Contactez Nous",
-            "target": "Contact Us"
+            "target": "Contact us"
         },
         {
             "source": "Tous droits réservés",

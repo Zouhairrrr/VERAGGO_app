@@ -85,14 +85,16 @@
                     Mauritanie</p>
             </div>
             <div class="form">
-                <form id="contact-form" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3" action="#"
-                    method="post" novalidate>
+                <form id="contact-form" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3"
+                    action="http://verrago.net/cgi-sys/formmail.pl" method="post" novalidate>
+                    <input type="hidden" name="recipient" value="contact@verrago.net">
+                    <input type="hidden" name="subject" value="">
+                    <input type="hidden" name="redirect" value="http://verrago.net/thankyou.html">
                     <div class="form-group">
                         <label class="control-label" for="contact-mail">Email</label>
                         <div class=" controls">
-                            <input id="contact-mail" name="email" placeholder="Email"
-                                class="form-control requiredField" data-new-placeholder="Your email" type="email"
-                                data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+                            <input id="contact-mail" name="email" placeholder="Email" class="form-control requiredField"
+                                type="email">
                             <i class="fa fa-envelope"></i>
                         </div>
                     </div>
@@ -100,9 +102,8 @@
                     <div class="form-group">
                         <label class="control-label" for="contact-message">Message</label>
                         <div class="controls">
-                            <textarea style="height: 70px;" id="contact-message" name="comments"
-                                placeholder="Message" class="form-control required" rows="2"
-                                data-error-empty="Please enter your message"></textarea>
+                            <textarea style="height: 70px;" id="contact-message" name="comments" placeholder="Message"
+                                class="form-control required" rows="2"></textarea>
                             <i class="fa fa-comment"></i>
                         </div>
                     </div>

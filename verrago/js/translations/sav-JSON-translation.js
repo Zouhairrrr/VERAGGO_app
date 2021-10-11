@@ -56,7 +56,7 @@ var linguJSON = {
       },
       {
           "source": "Contactez-nous",
-          "target": "Contact Us"
+          "target": "Contact us"
       },
       {
           "source": "Tous droits réservés",
