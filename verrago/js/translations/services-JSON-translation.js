@@ -77,6 +77,10 @@ var linguJSON = {
       {
           "source": "Tous droits réservés",
           "target": "All rights reserved"
-      },
+      }, 
+      {
+          "source": "Site web réalisé par :",
+          "target": "Website made by :"
+      }
   ]
 };

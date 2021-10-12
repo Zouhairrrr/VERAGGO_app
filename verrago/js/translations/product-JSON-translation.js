@@ -51,8 +51,8 @@ var linguJSON = {
         "target": "Send Message"
     },
     {
-        "source": "RODUITS",
-        "target": "RODUCTS"
+        "source": "PRODUITS",
+        "target": "PRODUCTS"
     },
     {
         "source": "Oil & Gaz, Mines et autres",
@@ -88,7 +88,7 @@ var linguJSON = {
     },
     {
         "source": "Matériel Pompier et Incendie",
-        "target": "firefighting and fire equipment"
+        "target": "Firefighting and fire equipment"
     },
     {
         "source": "Instrumentation : Mesure et Alarme de Niveau",
@@ -131,7 +131,7 @@ var linguJSON = {
         "target": "Carbon brushes"
     },
     {
-        "source": "Compresseur",
+        "source": "Compresseurs",
         "target": "Compressors"
     },
     {
@@ -159,7 +159,7 @@ var linguJSON = {
         "target": "Control and Anti-Overflow"
     },
     {
-        "source": "Signalisation industriel",
+        "source": "Signalisation industrielle",
         "target": "Industrial Signaling "
     },
     {
@@ -201,6 +201,10 @@ var linguJSON = {
     {
         "source": "Tous droits réservés",
         "target": "All rights reserved"
+    }, 
+    {
+        "source": "Site web réalisé par :",
+        "target": "Website made by :"
     }
   ]
 };

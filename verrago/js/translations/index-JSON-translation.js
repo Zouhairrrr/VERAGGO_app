@@ -53,24 +53,24 @@
         },
 
         {
-            "source": "ission",
-            "target": "ission",
+            "source": "Mission",
+            "target": "Mission",
         },
         {
             "source": "Offrir à nos clients des solutions à forte valeur ajoutée.",
             "target": "To offer our clients high value-added solutions."
         },
         {
-            "source": "ision",
-            "target": "ision",
+            "source": "Vision",
+            "target": "Vision",
         },
         {
             "source": "Devenir leader dans la fourniture industrielle dans le marché africain.",
             "target": "To become a leader in industrial supply in the African market."
         },
         {
-            "source": "aleurs",
-            "target": "alues",
+            "source": "Valeurs",
+            "target": "Values",
         },
         {
             "source": "Engagement, Efficacité, Rapidité",
@@ -87,6 +87,10 @@
         {
             "source": "Tous droits réservés",
             "target": "All rights reserved"
-        },
+        }, 
+        {
+            "source": "Site web réalisé par :",
+            "target": "Website made by :"
+        }
     ]
 };

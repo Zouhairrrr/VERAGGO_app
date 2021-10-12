@@ -1,1 +1,94 @@
-footer{background-color:#1a1a1a;border-bottom:2px solid white}.footer{display:flex;flex-direction:row;background:transparent;padding:20px}.right_,.form,.left{flex:100% 1}.right_{display:flex;align-items:flex-start;flex-direction:column;justify-content:space-around}.btn_{color:#fff!important;background:#d82730!important;font-weight:300;outline:none!important;border-radius:0;transition:opacity .2s ease-out;border:0}.right_ h1{color:#fff;font-size:40px}.right_ p{color:#ffffff9c}.span_{color:#fff}.left{display:flex;flex-direction:column;align-items:center;justify-content:space-around}@media only screen and (max-width:800px){.footer{flex-wrap:wrap}}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+footer {
+    background-color: #000000;
+    border-bottom: 2px solid white
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    padding: 20px
+}
+
+.right_,
+.form,
+.left {
+    flex: 100% 1
+}
+
+.right_ {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.btn_ {
+    color: #fff !important;
+    background: #d82730 !important;
+    font-weight: 300;
+    outline: none !important;
+    border-radius: 0;
+    transition: opacity .2s ease-out;
+    border: 0
+}
+
+.right_ h1 {
+    color: #fff;
+    font-size: 40px
+}
+
+.right_ p {
+    color: #ffffff9c
+}
+
+.span_ {
+    color: #fff
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+@media only screen and (max-width:800px) {
+    .footer {
+        flex-wrap: wrap
+    }
+}
+
+.madeby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    color: #8d8b8b;
+}
+
+.madeby p {
+    font-size: clamp(.8rem, 1rem, 1rem);
+}
+
+.madeby p a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding-right: .5rem !important;
+}
+
+@media only screen and (max-width:600px) {
+    .container-fluid img {
+        width: 30%;
+    }
+}
+@media only screen and (max-width:400) {
+    .madeby{
+        flex-wrap: wrap;
+      }
+}

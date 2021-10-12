@@ -1,3 +1,8 @@
+/** @format */
+
+body {
+  font-family: "Lato", sans-serif !important;
+}
 .wrrr {
   min-height: 100vh;
   width: 100%;
@@ -32,22 +37,18 @@ video {
   left: 0;
 }
 .act {
-  color: #d82730 !important;
+  color: #c31432 !important;
 }
 .prop {
-  background-color: #f00;
+  background-color: rgb(165,152, 152, 93%);
   width: 50%;
   position: absolute;
   right: 10%;
   top: 10%;
   padding: 15px;
-  box-shadow: 0 0 2px black;
-  border-top-left-radius: 0;
-  border-top-right-radius: 22px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 22px;
+  box-shadow: 0 0 1px black;
+  border-radius: 22px;
   min-height: 50%;
-  box-shadow: 0 0 2px black;
   animation: bounceInRight 1s;
 }
 .prop .text_pro {
@@ -57,16 +58,17 @@ video {
   width: 100%;
   line-height: 2;
 }
+.prop .text_pro h1::first-letter {
+    color: red;
+}
 .prop .text_pro h1 {
-  font-size: clamp(5vw, 7vw, 4rem);
+
+  font-size: clamp(3vw, 4vw, 2rem);
   color: #fff;
   letter-spacing: 1.3px;
   margin-bottom: 0 !important;
   text-transform: uppercase;
-  text-shadow: 0 0 12px black;
-}
-.prop .text_pro h1 span {
-  color: #fff;
+  text-shadow: 0 0 1px black;
 }
 .prop .text_pro p {
   text-align: start;
@@ -90,7 +92,8 @@ video {
     width: 70%;
     left: 10%;
     top: 8%;
-    background-color: rgba(255, 0, 0, 0.692);
+    background-color: rgb(165,152, 152, 93%);
+
   }
   .prop .text_pro p {
     font-size: clamp(1.4vw, 1vw, 1vw);
@@ -105,20 +108,13 @@ video {
   .prop {
     top: 4% !important;
     left: 28%;
-    border-top-left-radius: 22px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 22px;
-    border-bottom-left-radius: 0;
   }
   .prop .text_pro p {
     font-size: clamp(2.2vw, 2vw, 2vw);
   }
 }
 @media only screen and (max-width: 400px) {
-  .prop {
-    top: 1% !important;
-    right: 70% !important;
-  }
+
   .prop .text_pro p {
     font-size: clamp(3vw, 2vw, 2vw);
   }
