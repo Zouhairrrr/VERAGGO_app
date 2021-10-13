@@ -87,6 +87,10 @@
         {
             "source": "Tous droits réservés",
             "target": "All rights reserved"
+        },
+        {
+            "source": "Bureau :",
+            "target": "Office :"
         }, 
         {
             "source": "Site web réalisé par :",
