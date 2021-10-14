@@ -65,6 +65,10 @@ var linguJSON = {
         {
             "source": "Site web réalisé par :",
             "target": "Website made by :"
+        },
+        {
+            "source": "Votre message a été envoyé avec succès.",
+            "target": "Your message has been sent successfully."
         }
     ]
 };
