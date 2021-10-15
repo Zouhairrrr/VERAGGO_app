@@ -93,11 +93,11 @@
                     Mauritanie</p>
             </div>
             <div class="form">
-                <form action="./form.php" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3">
+                <form action="./form.php" id="contact-form" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3">
                     <div class="form-group">
                         <label class="control-label" for="contact-mail">Email</label>
                         <div class=" controls">
-                            <input name="email" placeholder="Email" class="form-control" required type="email">
+                            <input id="contact-mail" name="email" placeholder="Email" class="form-control" required type="email">
                             <i class="fa fa-envelope"></i>
                         </div>
                     </div>
@@ -105,19 +105,18 @@
                     <div class="form-group">
                         <label class="control-label" for="message">Message</label>
                         <div class="controls">
-                            <textarea name="message" placeholder="Message"
+                            <textarea id="contact-message" name="message" placeholder="Message"
                                 class="form-control" required rows="2"></textarea>
                             <i class="fa fa-comment"></i>
                         </div>
                     </div>
-
                     <p>
-                        <button name="submit" class="btn_ btn-color2 btn-block" data-toggle="modal" data-target="#exampleModal">
+                        <button name="submit" class="btn_ btn-color2 btn-block">
                             <i class="fa fa-paper-plane"></i><span>Envoyer Message</span>
                         </button>
                     </p>
   
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -134,7 +133,7 @@
                             </div>
                         </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </form>
             </div>
