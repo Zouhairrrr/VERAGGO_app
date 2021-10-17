@@ -12,7 +12,6 @@ if (isset($_POST['submit'])) {
     $email = $_POST['email'];
 
     if (empty($message) && empty($email)) {
-
         echo `<script>alert("please fill required feild")</script>`;
         return  header('Location: ' . $_SERVER['HTTP_REFERER']);
     } else {
@@ -35,6 +34,16 @@ if (isset($_POST['submit'])) {
             $mail->Body    = "$email<br><br>$message";
 
             $mail->send();
+
+            $sendmail = $mail;
+            if($sendmail){
+
+                echo `<div>
+                    alerrzhzhzhzhrhr
+                </div>`;
+
+
+            }
 
             header('Location: http://www.verrago.net/');
 
