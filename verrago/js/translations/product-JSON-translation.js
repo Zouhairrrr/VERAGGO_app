@@ -56,7 +56,7 @@ var linguJSON = {
     },
     {
         "source": "Oil & Gaz, Mines et autres",
-        "target": "Oil & Gas, Mines and others"
+        "target": "Oil & Gas, Mining and others"
     },
     {
         "source": "Pompe et accessoires",
