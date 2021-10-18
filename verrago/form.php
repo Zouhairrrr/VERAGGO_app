@@ -1,4 +1,5 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -13,7 +14,7 @@ if (isset($_POST['submit'])) {
         $mail->Host       = 'hiver.50dh.net';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'contact@verrago.net';
-        $mail->Password   = 'contactemail123';    
+        $mail->Password   = 'contactemail123';
         $mail->Port       = 465;
         $mail->setFrom('contact@verrago.net', 'Contact us');
         $mail->addAddress('contact@verrago.net', 'Contact Us');
@@ -23,22 +24,13 @@ if (isset($_POST['submit'])) {
         $mail->Body    = "$email<br><br>$message";
         $mail->send();
         $sendmail = $mail;
+        header("Access-Control-Allow-Origin: *");
         if ($sendmail) {
-            $res = [
-              "status" => "success",
-              "message" => "Add successfully",
-            ];
-            echo json_encode($res);
+            echo "success";
         } else {
-            $res = [
-              "status" => "error",
-              "message" => "The message could not be sent.",
-            ];
-            echo json_encode($res);
+            echo 'error';
         }
     } catch (Exception $e) {
         echo 'The message could not be sent.<br>Mailer Error: ', $mail->ErrorInfo;
     }
 }
-
-echo 'jjsd';
