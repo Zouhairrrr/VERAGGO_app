@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/home_2.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/animate.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -409,7 +410,7 @@
           Mauritanie</p>
       </div>
       <div class="form">
-        <form action="./form.php" id="contact-form" method="post" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3">
+        <form id="contact-form" method="post" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3">
           <div class="form-group">
             <label class="control-label" for="email">Email</label>
             <div class=" controls">
@@ -426,7 +427,7 @@
             </div>
           </div>
         <p>
-            <button name="submit" class="btn_ btn-color2 btn-block">
+            <button type="submit" name="submit" class="btn_ btn-color2 btn-block">
                 <i class="fa fa-paper-plane"></i><span>Envoyer Message</span>
             </button>
         </p>
@@ -576,9 +577,9 @@
   </div>
   <div class="madeby"><p>Site web réalisé par :<a class="link" href="http://www.letscom.ma/">Let's Com Production</a></p>
   </div>
-
+  <script src="js/form.js"></script>
   <script src="js/translations/product-JSON-translation.js"></script>
-    <script src="js/lingumania.min.js"></script>
+  <script src="js/lingumania.min.js"></script>
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

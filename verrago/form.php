@@ -24,15 +24,21 @@ if (isset($_POST['submit'])) {
         $mail->send();
         $sendmail = $mail;
         if ($sendmail) {
-            echo "
-            <script type='text/javascript'>
-            alert('welcome');
-            window.history.back();
-            </script>";
+            $res = [
+              "status" => "success",
+              "message" => "Add successfully",
+            ];
+            echo json_encode($res);
         } else {
-            echo 'The message could not be sent.<br>';
+            $res = [
+              "status" => "error",
+              "message" => "The message could not be sent.",
+            ];
+            echo json_encode($res);
         }
     } catch (Exception $e) {
         echo 'The message could not be sent.<br>Mailer Error: ', $mail->ErrorInfo;
     }
 }
+
+echo 'jjsd';

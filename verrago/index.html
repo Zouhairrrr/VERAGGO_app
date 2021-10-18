@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/home_2.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/animate.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -21,9 +22,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
         <div class="container-fluid">
-
             <img src="./img/Verrago _logo_white.png" onclick="location.href='./index.html';"></img>
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
                 aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -261,7 +260,7 @@
                 </div>
             </div>
             <div class="form">
-                <form action="./form.php" id="contact-form" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3" method="post">
+                <form id="contact-form" class="col-sm-12 m-auto col-md-offset-1 scrollimation fade-left d3" method="post">
                     <div class="form-group">
                         <label class="control-label" for="email">Email</label>
                         <div class=" controls">
@@ -278,7 +277,7 @@
                         </div>
                     </div>
                     <p>
-                        <button name="submit" class="btn_ btn-color2 btn-block">
+                        <button type="submit" name="submit" class="btn_ btn-color2 btn-block">
                             <i class="fa fa-paper-plane"></i><span>Envoyer Message</span>
                         </button>
                     </p>
@@ -291,6 +290,7 @@
     </div>
     <div class="madeby"><p>Site web réalisé par :<a class="link" href="http://www.letscom.ma/"> Let's Com Production</a></p>
     </div>
+    <script src="js/form.js"></script>
     <script src="js/translations/index-JSON-translation.js"></script>
     <script src="js/lingumania.min.js"></script>
     <script src="js/jquery-3.4.1.js"></script>
