@@ -11,14 +11,14 @@ if (isset($_POST['submit'])) {
     $mail = new PHPMailer(true);
     try {
         $mail->isMAIL();
-        $mail->Host       = 'hiver.50dh.net';
+        $mail->Host       = 'domain.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'contact@verrago.net';
-        $mail->Password   = 'contactemail123';
-        $mail->Port       = 465;
-        $mail->setFrom('contact@verrago.net', 'Contact us');
-        $mail->addAddress('contact@verrago.net', 'Contact Us');
-        $mail->addReplyTo('contact@verrago.net', 'Information');
+        $mail->Username   = 'contact@exemple.com';
+        $mail->Password   = 'password';
+        $mail->Port       = 412;
+        $mail->setFrom('contact@exemple.com', 'Contact us');
+        $mail->addAddress('contact@exemple.com', 'Contact Us');
+        $mail->addReplyTo('contact@exemple.com', 'Information');
         $mail->isHTML(true);
         $mail->Subject = 'Message sent from the website.';
         $mail->Body    = "$email<br><br>$message";
