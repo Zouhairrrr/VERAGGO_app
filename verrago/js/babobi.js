@@ -3,11 +3,11 @@ function babobi(){
     // console.log(urlParams);
     if (urlParams.has('lang')) {
         if (urlParams.get("lang") === 'en') {
-            window.location.href = "index.html?lang=en";
+            window.location.href = "index?lang=en";
         }else{
-            window.location.href = "index.html";
+            window.location.href = "index";
         }
     }else{
-        window.location.href = "index.html";
+        window.location.href = "index";
     }
 }
